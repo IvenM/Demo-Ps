@@ -1,0 +1,2142 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180025A91DD15EF500F14BBF /* DMDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 180025A81DD15EF500F14BBF /* DMDropDownMenu.m */; };
+		1814D9061DD94D0F000CD0FC /* 高度和宽度互换.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9051DD94D0F000CD0FC /* 高度和宽度互换.png */; };
+		1814D90A1DD95161000CD0FC /* 4@画板工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9091DD95161000CD0FC /* 4@画板工具.png */; };
+		1814D90C1DD95AF9000CD0FC /* 制作纵版.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D90B1DD95AF9000CD0FC /* 制作纵版.png */; };
+		1814D90E1DD95B00000CD0FC /* 制作横版.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D90D1DD95B00000CD0FC /* 制作横版.png */; };
+		1814D9101DD95B12000CD0FC /* 添加新画板.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D90F1DD95B12000CD0FC /* 添加新画板.png */; };
+		1814D9121DD95BBA000CD0FC /* 设置画板行为.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9111DD95BBA000CD0FC /* 设置画板行为.png */; };
+		1814D9161DD96EBC000CD0FC /* 使用手绘板压力增加钢笔宽度.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9151DD96EBC000CD0FC /* 使用手绘板压力增加钢笔宽度.png */; };
+		1814D9181DD986DE000CD0FC /* 磁性套索工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9171DD986DE000CD0FC /* 磁性套索工具.png */; };
+		1814D91A1DD987DE000CD0FC /* 套索工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9191DD987DE000CD0FC /* 套索工具.png */; };
+		1814D91C1DD988B0000CD0FC /* V上点击.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D91B1DD988B0000CD0FC /* V上点击.png */; };
+		1814D91E1DD99952000CD0FC /* M1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D91D1DD99952000CD0FC /* M1.png */; };
+		1814D9201DD99B11000CD0FC /* V4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D91F1DD99B11000CD0FC /* V4.png */; };
+		1814D9221DD99C34000CD0FC /* V1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9211DD99C34000CD0FC /* V1.png */; };
+		1814D9241DD9A017000CD0FC /* V22.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9231DD9A017000CD0FC /* V22.png */; };
+		1814D9261DD9A19A000CD0FC /* V5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1814D9251DD9A19A000CD0FC /* V5.png */; };
+		181F7E2A1DF012C0007CCE93 /* F1线条.png in Resources */ = {isa = PBXBuildFile; fileRef = 181F7E291DF012C0007CCE93 /* F1线条.png */; };
+		181F7E2C1DF01569007CCE93 /* F1箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 181F7E2B1DF01569007CCE93 /* F1箭头.png */; };
+		182E41931DF93255006E86D6 /* 猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182E41921DF93255006E86D6 /* 猫.jpg */; };
+		182E41971DF936C3006E86D6 /* 乔巴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182E41961DF936C3006E86D6 /* 乔巴.jpg */; };
+		183042C91DE52472003C34CF /* Z1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042C51DE52472003C34CF /* Z1.png */; };
+		183042CA1DE52472003C34CF /* Z1小.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042C61DE52472003C34CF /* Z1小.png */; };
+		183042CB1DE52472003C34CF /* Z2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042C71DE52472003C34CF /* Z2.png */; };
+		183042CC1DE52472003C34CF /* Z2大.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042C81DE52472003C34CF /* Z2大.png */; };
+		183042CE1DE53600003C34CF /* 默认颜色.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042CD1DE53600003C34CF /* 默认颜色.png */; };
+		183042D01DE5385C003C34CF /* 大颜色块.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042CF1DE5385C003C34CF /* 大颜色块.png */; };
+		183042D21DE5394D003C34CF /* 小色块.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042D11DE5394D003C34CF /* 小色块.png */; };
+		183042D41DE539EB003C34CF /* 指针.png in Resources */ = {isa = PBXBuildFile; fileRef = 183042D31DE539EB003C34CF /* 指针.png */; };
+		18316AA11DF8002700B3BCE5 /* 下拉.png in Resources */ = {isa = PBXBuildFile; fileRef = 18316AA01DF8002700B3BCE5 /* 下拉.png */; };
+		18316AA31DF806F000B3BCE5 /* 小三角.png in Resources */ = {isa = PBXBuildFile; fileRef = 18316AA21DF806F000B3BCE5 /* 小三角.png */; };
+		18316AA51DF80A2C00B3BCE5 /* 旋转十字标.png in Resources */ = {isa = PBXBuildFile; fileRef = 18316AA41DF80A2C00B3BCE5 /* 旋转十字标.png */; };
+		18316AA71DF8134500B3BCE5 /* 惊叹号.png in Resources */ = {isa = PBXBuildFile; fileRef = 18316AA61DF8134500B3BCE5 /* 惊叹号.png */; };
+		1832045A1DE3DBB8000D2E42 /* P1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204551DE3DBB8000D2E42 /* P1.png */; };
+		1832045B1DE3DBB8000D2E42 /* P2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204561DE3DBB8000D2E42 /* P2.png */; };
+		1832045C1DE3DBB8000D2E42 /* P3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204571DE3DBB8000D2E42 /* P3.png */; };
+		1832045D1DE3DBB8000D2E42 /* P4.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204581DE3DBB8000D2E42 /* P4.png */; };
+		1832045E1DE3DBB8000D2E42 /* P5.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204591DE3DBB8000D2E42 /* P5.png */; };
+		183204641DE3EFFE000D2E42 /* T1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204601DE3EFFE000D2E42 /* T1.png */; };
+		183204651DE3EFFE000D2E42 /* T2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204611DE3EFFE000D2E42 /* T2.png */; };
+		183204661DE3EFFE000D2E42 /* T3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204621DE3EFFE000D2E42 /* T3.png */; };
+		183204671DE3EFFE000D2E42 /* T4.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204631DE3EFFE000D2E42 /* T4.png */; };
+		183204691DE3F04B000D2E42 /* T6.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204681DE3F04B000D2E42 /* T6.png */; };
+		1832046B1DE3F27C000D2E42 /* T5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832046A1DE3F27C000D2E42 /* T5.png */; };
+		1832046D1DE3F288000D2E42 /* T8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832046C1DE3F288000D2E42 /* T8.png */; };
+		1832046F1DE3F656000D2E42 /* T11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832046E1DE3F656000D2E42 /* T11.png */; };
+		183204731DE3F665000D2E42 /* T21.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204701DE3F665000D2E42 /* T21.png */; };
+		183204741DE3F665000D2E42 /* T31.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204711DE3F665000D2E42 /* T31.png */; };
+		183204751DE3F665000D2E42 /* T41.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204721DE3F665000D2E42 /* T41.png */; };
+		183204771DE3F68B000D2E42 /* T.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204761DE3F68B000D2E42 /* T.png */; };
+		183204791DE3F6B6000D2E42 /* T10.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204781DE3F6B6000D2E42 /* T10.png */; };
+		1832047D1DE41732000D2E42 /* A1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832047B1DE41732000D2E42 /* A1.png */; };
+		1832047E1DE41732000D2E42 /* A2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832047C1DE41732000D2E42 /* A2.png */; };
+		183204811DE41A91000D2E42 /* A11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832047F1DE41A91000D2E42 /* A11.png */; };
+		183204821DE41A91000D2E42 /* A22.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204801DE41A91000D2E42 /* A22.png */; };
+		183204841DE41BA3000D2E42 /* A44.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204831DE41BA3000D2E42 /* A44.png */; };
+		183204861DE41F1D000D2E42 /* A66.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204851DE41F1D000D2E42 /* A66.png */; };
+		183204881DE421FB000D2E42 /* 前移1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204871DE421FB000D2E42 /* 前移1.png */; };
+		183204901DE4383E000D2E42 /* U1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832048A1DE4383E000D2E42 /* U1.png */; };
+		183204911DE4383E000D2E42 /* U2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832048B1DE4383E000D2E42 /* U2.png */; };
+		183204921DE4383E000D2E42 /* U3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832048C1DE4383E000D2E42 /* U3.png */; };
+		183204931DE4383E000D2E42 /* U4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832048D1DE4383E000D2E42 /* U4.png */; };
+		183204941DE4383E000D2E42 /* U5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832048E1DE4383E000D2E42 /* U5.png */; };
+		183204951DE4383E000D2E42 /* U6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832048F1DE4383E000D2E42 /* U6.png */; };
+		183204991DE43A0A000D2E42 /* H1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204971DE43A0A000D2E42 /* H1.png */; };
+		1832049A1DE43A0A000D2E42 /* H2R.png in Resources */ = {isa = PBXBuildFile; fileRef = 183204981DE43A0A000D2E42 /* H2R.png */; };
+		1832049C1DE44076000D2E42 /* R1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832049B1DE44076000D2E42 /* R1.png */; };
+		1832D5A31DDAA2F600A05656 /* W1(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5A21DDAA2F600A05656 /* W1(1).png */; };
+		1832D5A71DDAA5D000A05656 /* W.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5A41DDAA5D000A05656 /* W.png */; };
+		1832D5A81DDAA5D000A05656 /* W1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5A51DDAA5D000A05656 /* W1.png */; };
+		1832D5A91DDAA5D000A05656 /* W2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5A61DDAA5D000A05656 /* W2.png */; };
+		1832D5AB1DDAA80900A05656 /* 笔刷控制.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5AA1DDAA80900A05656 /* 笔刷控制.png */; };
+		1832D5AF1DDAB14300A05656 /* W22.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5AE1DDAB14300A05656 /* W22.png */; };
+		1832D5B11DDAD7E300A05656 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5B01DDAD7E300A05656 /* 111.png */; };
+		1832D5B41DDAE2F300A05656 /* C3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5B31DDAE2F300A05656 /* C3.png */; };
+		1832D5B61DDAE48700A05656 /* C4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5B51DDAE48700A05656 /* C4.png */; };
+		1832D5B81DDAE9A100A05656 /* C1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5B71DDAE9A100A05656 /* C1.png */; };
+		1832D5BA1DDAECE800A05656 /* 拉直.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5B91DDAECE800A05656 /* 拉直.png */; };
+		1832D5BD1DDAF3F800A05656 /* 设置裁剪工具的叠加选项1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5BB1DDAF3F800A05656 /* 设置裁剪工具的叠加选项1.png */; };
+		1832D5BE1DDAF3F800A05656 /* 设置其他裁切选项.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5BC1DDAF3F800A05656 /* 设置其他裁切选项.png */; };
+		1832D5C01DDAF71700A05656 /* C33.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5BF1DDAF71700A05656 /* C33.png */; };
+		1832D5C21DDAFB5200A05656 /* 复位裁剪框.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5C11DDAFB5200A05656 /* 复位裁剪框.png */; };
+		1832D5C41DDB004500A05656 /* C2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5C31DDB004500A05656 /* C2.png */; };
+		1832D5C61DDB0A1000A05656 /* C44.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5C51DDB0A1000A05656 /* C44.png */; };
+		1832D5C91DDB0BF300A05656 /* 置为底层.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5C71DDB0BF300A05656 /* 置为底层.png */; };
+		1832D5CA1DDB0BF300A05656 /* 置为顶层.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5C81DDB0BF300A05656 /* 置为顶层.png */; };
+		1832D5CD1DDB0C1200A05656 /* 后移一层.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5CB1DDB0C1200A05656 /* 后移一层.png */; };
+		1832D5CE1DDB0C1200A05656 /* 前移一层.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5CC1DDB0C1200A05656 /* 前移一层.png */; };
+		1832D5D01DDB11DC00A05656 /* 为当前切片设置选项.png in Resources */ = {isa = PBXBuildFile; fileRef = 1832D5CF1DDB11DC00A05656 /* 为当前切片设置选项.png */; };
+		1833ABA61DEE754300904397 /* 颜色图片838383.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833ABA51DEE754300904397 /* 颜色图片838383.png */; };
+		1837285D1DE566BD004F0D31 /* 更多.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837285C1DE566BD004F0D31 /* 更多.png */; };
+		1837285F1DE56F25004F0D31 /* 4X样式面板.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837285E1DE56F25004F0D31 /* 4X样式面板.png */; };
+		183728631DE578F1004F0D31 /* 清除.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728601DE578F1004F0D31 /* 清除.png */; };
+		183728641DE578F1004F0D31 /* 删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728611DE578F1004F0D31 /* 删除.png */; };
+		183728651DE578F1004F0D31 /* 新建.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728621DE578F1004F0D31 /* 新建.png */; };
+		183728691DE57CCB004F0D31 /* 色板2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728671DE57CCB004F0D31 /* 色板2.png */; };
+		1837286B1DE59534004F0D31 /* 色阶.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837286A1DE59534004F0D31 /* 色阶.png */; };
+		1837286E1DE5953E004F0D31 /* 亮度对比度.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837286C1DE5953E004F0D31 /* 亮度对比度.png */; };
+		1837286F1DE5953E004F0D31 /* 曲线.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837286D1DE5953E004F0D31 /* 曲线.png */; };
+		183728711DE59557004F0D31 /* 曝光度.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728701DE59557004F0D31 /* 曝光度.png */; };
+		183728731DE59577004F0D31 /* 自然饱和度.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728721DE59577004F0D31 /* 自然饱和度.png */; };
+		183728751DE595AD004F0D31 /* 色彩平衡.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728741DE595AD004F0D31 /* 色彩平衡.png */; };
+		183728771DE595C7004F0D31 /* 黑白.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728761DE595C7004F0D31 /* 黑白.png */; };
+		183728791DE595D9004F0D31 /* 照片滤镜.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728781DE595D9004F0D31 /* 照片滤镜.png */; };
+		1837287B1DE595F0004F0D31 /* 通道混合器.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837287A1DE595F0004F0D31 /* 通道混合器.png */; };
+		1837287D1DE59605004F0D31 /* 颜色查找.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837287C1DE59605004F0D31 /* 颜色查找.png */; };
+		1837287F1DE5962E004F0D31 /* 反相.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837287E1DE5962E004F0D31 /* 反相.png */; };
+		183728811DE59641004F0D31 /* 色调分离.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728801DE59641004F0D31 /* 色调分离.png */; };
+		183728831DE59655004F0D31 /* 阈值.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728821DE59655004F0D31 /* 阈值.png */; };
+		183728851DE59674004F0D31 /* 可选颜色.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728841DE59674004F0D31 /* 可选颜色.png */; };
+		183728871DE59686004F0D31 /* 渐变映射.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728861DE59686004F0D31 /* 渐变映射.png */; };
+		183728891DE5979D004F0D31 /* 色相饱和度.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728881DE5979D004F0D31 /* 色相饱和度.png */; };
+		183728911DE5A009004F0D31 /* 3D.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837288A1DE5A009004F0D31 /* 3D.png */; };
+		183728921DE5A009004F0D31 /* 段落.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837288B1DE5A009004F0D31 /* 段落.png */; };
+		183728931DE5A009004F0D31 /* 画笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837288C1DE5A009004F0D31 /* 画笔.png */; };
+		183728941DE5A009004F0D31 /* 画笔预设.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837288D1DE5A009004F0D31 /* 画笔预设.png */; };
+		183728951DE5A009004F0D31 /* 属性面板.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837288E1DE5A009004F0D31 /* 属性面板.png */; };
+		183728961DE5A009004F0D31 /* 字符.png in Resources */ = {isa = PBXBuildFile; fileRef = 1837288F1DE5A009004F0D31 /* 字符.png */; };
+		183728971DE5A009004F0D31 /* Device-Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728901DE5A009004F0D31 /* Device-Preview.png */; };
+		183728991DE5A17F004F0D31 /* 横线.png in Resources */ = {isa = PBXBuildFile; fileRef = 183728981DE5A17F004F0D31 /* 横线.png */; };
+		18384F0B1DDD3BE800F4CEF2 /* 切换仿制源面板.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F0A1DDD3BE800F4CEF2 /* 切换仿制源面板.png */; };
+		18384F0D1DDD3C2A00F4CEF2 /* J2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F0C1DDD3C2A00F4CEF2 /* J2.png */; };
+		18384F0F1DDD43C500F4CEF2 /* 打开以复制时忽略调整图层.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F0E1DDD43C500F4CEF2 /* 打开以复制时忽略调整图层.png */; };
+		18384F111DDD4D1F00F4CEF2 /* J3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F101DDD4D1F00F4CEF2 /* J3.png */; };
+		18384F131DDD5C2E00F4CEF2 /* J4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F121DDD5C2E00F4CEF2 /* J4.png */; };
+		18384F151DDD7C6900F4CEF2 /* J5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F141DDD7C6900F4CEF2 /* J5.png */; };
+		18384F171DDD8B0F00F4CEF2 /* 始终对不透明度使用压力.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F161DDD8B0F00F4CEF2 /* 始终对不透明度使用压力.png */; };
+		18384F191DDD8B3600F4CEF2 /* 启用喷枪样式的建立效果.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F181DDD8B3600F4CEF2 /* 启用喷枪样式的建立效果.png */; };
+		18384F1C1DDD8D3D00F4CEF2 /* 切换至画笔面板.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F1B1DDD8D3D00F4CEF2 /* 切换至画笔面板.png */; };
+		18384F211DDDA29300F4CEF2 /* B1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F1D1DDDA29300F4CEF2 /* B1.png */; };
+		18384F221DDDA29300F4CEF2 /* B2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F1E1DDDA29300F4CEF2 /* B2.png */; };
+		18384F231DDDA29300F4CEF2 /* B3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F1F1DDDA29300F4CEF2 /* B3.png */; };
+		18384F241DDDA29300F4CEF2 /* B4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F201DDDA29300F4CEF2 /* B4.png */; };
+		18384F261DDDB59200F4CEF2 /* 取样连续.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F251DDDB59200F4CEF2 /* 取样连续.png */; };
+		18384F281DDDB5B400F4CEF2 /* 取样背景色板.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F271DDDB5B400F4CEF2 /* 取样背景色板.png */; };
+		18384F2A1DDDB5C300F4CEF2 /* 取样1次.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F291DDDB5C300F4CEF2 /* 取样1次.png */; };
+		18384F2C1DDDB87C00F4CEF2 /* 每次描边后载入画笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F2B1DDDB87C00F4CEF2 /* 每次描边后载入画笔.png */; };
+		18384F2E1DDDB8A200F4CEF2 /* 每次描边后清理画笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F2D1DDDB8A200F4CEF2 /* 每次描边后清理画笔.png */; };
+		18384F301DDDB8E000F4CEF2 /* 色块2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18384F2F1DDDB8E000F4CEF2 /* 色块2.png */; };
+		183BD3F21DE28AC4005EA055 /* G1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3EF1DE28AC4005EA055 /* G1.png */; };
+		183BD3F31DE28AC4005EA055 /* G2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3F01DE28AC4005EA055 /* G2.png */; };
+		183BD3F41DE28AC4005EA055 /* G3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3F11DE28AC4005EA055 /* G3.png */; };
+		183BD3FC1DE28B4A005EA055 /* 渐1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3F61DE28B4A005EA055 /* 渐1.png */; };
+		183BD3FD1DE28B4A005EA055 /* 渐2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3F71DE28B4A005EA055 /* 渐2.png */; };
+		183BD3FE1DE28B4A005EA055 /* 渐3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3F81DE28B4A005EA055 /* 渐3.png */; };
+		183BD3FF1DE28B4A005EA055 /* 渐4.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3F91DE28B4A005EA055 /* 渐4.png */; };
+		183BD4001DE28B4A005EA055 /* 渐5.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3FA1DE28B4A005EA055 /* 渐5.png */; };
+		183BD4011DE28B4A005EA055 /* 渐变.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD3FB1DE28B4A005EA055 /* 渐变.png */; };
+		183BD4031DE28BD8005EA055 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4021DE28BD8005EA055 /* 1.png */; };
+		183BD4051DE29B88005EA055 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4041DE29B88005EA055 /* 3.png */; };
+		183BD40A1DE2CC52005EA055 /* 模糊工具1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4071DE2CC52005EA055 /* 模糊工具1.png */; };
+		183BD40B1DE2CC52005EA055 /* 锐化工具1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4081DE2CC52005EA055 /* 锐化工具1.png */; };
+		183BD40C1DE2CC52005EA055 /* 涂抹工具1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4091DE2CC52005EA055 /* 涂抹工具1.png */; };
+		183BD4121DE2E042005EA055 /* O1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD40F1DE2E042005EA055 /* O1.png */; };
+		183BD4131DE2E042005EA055 /* O2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4101DE2E042005EA055 /* O2.png */; };
+		183BD4141DE2E042005EA055 /* O3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4111DE2E042005EA055 /* O3.png */; };
+		183BD4161DE2E4C1005EA055 /* 黑白简便.png in Resources */ = {isa = PBXBuildFile; fileRef = 183BD4151DE2E4C1005EA055 /* 黑白简便.png */; };
+		184720E81DF68A2500689134 /* XXXXX.png in Resources */ = {isa = PBXBuildFile; fileRef = 184720E71DF68A2500689134 /* XXXXX.png */; };
+		184720EA1DF6A46800689134 /* 长条1.png in Resources */ = {isa = PBXBuildFile; fileRef = 184720E91DF6A46800689134 /* 长条1.png */; };
+		184720EC1DF6A5C600689134 /* 线111.png in Resources */ = {isa = PBXBuildFile; fileRef = 184720EB1DF6A5C600689134 /* 线111.png */; };
+		184720F01DF6A79B00689134 /* 框2222.png in Resources */ = {isa = PBXBuildFile; fileRef = 184720EF1DF6A79B00689134 /* 框2222.png */; };
+		1848B8541DE82EAF0052C86D /* J1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848B8531DE82EAF0052C86D /* J1.png */; };
+		185833EC1DDE9F5700C7CFA6 /* S1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833EA1DDE9F5700C7CFA6 /* S1.png */; };
+		185833ED1DDE9F5700C7CFA6 /* S2.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833EB1DDE9F5700C7CFA6 /* S2.png */; };
+		185833EF1DDED3CE00C7CFA6 /* 选择图案.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833EE1DDED3CE00C7CFA6 /* 选择图案.png */; };
+		185833F31DDEEA5800C7CFA6 /* Y1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833F11DDEEA5800C7CFA6 /* Y1.png */; };
+		185833F41DDEEA5800C7CFA6 /* Y2.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833F21DDEEA5800C7CFA6 /* Y2.png */; };
+		185833F91DDEF1D000C7CFA6 /* E1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833F61DDEF1D000C7CFA6 /* E1.png */; };
+		185833FA1DDEF1D000C7CFA6 /* E2.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833F71DDEF1D000C7CFA6 /* E2.png */; };
+		185833FB1DDEF1D000C7CFA6 /* E3.png in Resources */ = {isa = PBXBuildFile; fileRef = 185833F81DDEF1D000C7CFA6 /* E3.png */; };
+		185D6F691DF15FCB000DE9EF /* 线1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D6F681DF15FCB000DE9EF /* 线1.png */; };
+		185D6F6D1DF16295000DE9EF /* 框1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D6F6C1DF16295000DE9EF /* 框1.png */; };
+		185D972A1DD557860090E32E /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97291DD557860090E32E /* cell.png */; };
+		185D972C1DD574890090E32E /* 划线.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D972B1DD574890090E32E /* 划线.png */; };
+		185D97301DD59F8E0090E32E /* 右对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D972E1DD59F8E0090E32E /* 右对齐.png */; };
+		185D97311DD59F8E0090E32E /* 左对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D972F1DD59F8E0090E32E /* 左对齐.png */; };
+		185D97361DD59F9D0090E32E /* 垂直居中对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97321DD59F9D0090E32E /* 垂直居中对齐.png */; };
+		185D97371DD59F9D0090E32E /* 垂直居中分布.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97331DD59F9D0090E32E /* 垂直居中分布.png */; };
+		185D97381DD59F9D0090E32E /* 底对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97341DD59F9D0090E32E /* 底对齐.png */; };
+		185D97391DD59F9D0090E32E /* 顶对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97351DD59F9D0090E32E /* 顶对齐.png */; };
+		185D97401DD5A1A40090E32E /* 按底分布.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D973A1DD5A1A40090E32E /* 按底分布.png */; };
+		185D97411DD5A1A40090E32E /* 按顶分布.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D973B1DD5A1A40090E32E /* 按顶分布.png */; };
+		185D97421DD5A1A40090E32E /* 按右分布.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D973C1DD5A1A40090E32E /* 按右分布.png */; };
+		185D97431DD5A1A40090E32E /* 按左分布.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D973D1DD5A1A40090E32E /* 按左分布.png */; };
+		185D97441DD5A1A40090E32E /* 水平居中对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D973E1DD5A1A40090E32E /* 水平居中对齐.png */; };
+		185D97451DD5A1A40090E32E /* 水平居中分布.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D973F1DD5A1A40090E32E /* 水平居中分布.png */; };
+		185D97471DD5A4970090E32E /* 自动对齐图层.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97461DD5A4970090E32E /* 自动对齐图层.png */; };
+		185D97491DD5AB1E0090E32E /* 环绕移动3D相机.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97481DD5AB1E0090E32E /* 环绕移动3D相机.png */; };
+		185D974B1DD5AB2F0090E32E /* 滑动3D相机.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D974A1DD5AB2F0090E32E /* 滑动3D相机.png */; };
+		185D974D1DD5AB510090E32E /* 滚动3D相机.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D974C1DD5AB510090E32E /* 滚动3D相机.png */; };
+		185D974F1DD5AB6A0090E32E /* 变焦3D相机.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D974E1DD5AB6A0090E32E /* 变焦3D相机.png */; };
+		185D97511DD5AB8D0090E32E /* 平移3D相机.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97501DD5AB8D0090E32E /* 平移3D相机.png */; };
+		185D97531DD5AD270090E32E /* 间隔线.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97521DD5AD270090E32E /* 间隔线.png */; };
+		185D97561DD5C8CA0090E32E /* 新选区.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97551DD5C8CA0090E32E /* 新选区.png */; };
+		185D97581DD5C8E10090E32E /* 添加到选区.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97571DD5C8E10090E32E /* 添加到选区.png */; };
+		185D975A1DD5C8FD0090E32E /* 从选区减去.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D97591DD5C8FD0090E32E /* 从选区减去.png */; };
+		185D975C1DD5C9190090E32E /* 与选区交叉.png in Resources */ = {isa = PBXBuildFile; fileRef = 185D975B1DD5C9190090E32E /* 与选区交叉.png */; };
+		186FB0E91DD40B0500473783 /* 4@编辑工具栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0E81DD40B0500473783 /* 4@编辑工具栏.png */; };
+		186FB0EB1DD40B2C00473783 /* 4@V移动.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0EA1DD40B2C00473783 /* 4@V移动.png */; };
+		186FB0ED1DD40B4500473783 /* 4@M矩形选框工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0EC1DD40B4500473783 /* 4@M矩形选框工具.png */; };
+		186FB0EF1DD40B7100473783 /* 4@L套索工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0EE1DD40B7100473783 /* 4@L套索工具.png */; };
+		186FB0F11DD40B9700473783 /* 4@W快速选择工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0F01DD40B9700473783 /* 4@W快速选择工具.png */; };
+		186FB0F31DD40BB900473783 /* 4@C裁剪工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0F21DD40BB900473783 /* 4@C裁剪工具.png */; };
+		186FB0F51DD40BE500473783 /* 4@I吸管工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0F41DD40BE500473783 /* 4@I吸管工具.png */; };
+		186FB0F71DD40C0200473783 /* 4@J红眼工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0F61DD40C0200473783 /* 4@J红眼工具.png */; };
+		186FB0F91DD40C2400473783 /* 4@B画笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0F81DD40C2400473783 /* 4@B画笔工具.png */; };
+		186FB0FB1DD40C4300473783 /* 4@S仿制图章.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0FA1DD40C4300473783 /* 4@S仿制图章.png */; };
+		186FB0FD1DD40C6D00473783 /* 4@Y历史记录画笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0FC1DD40C6D00473783 /* 4@Y历史记录画笔.png */; };
+		186FB0FF1DD40C9B00473783 /* 4@E橡皮擦工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB0FE1DD40C9B00473783 /* 4@E橡皮擦工具.png */; };
+		186FB1011DD40CBB00473783 /* 4@G渐变工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1001DD40CBB00473783 /* 4@G渐变工具.png */; };
+		186FB1031DD40CE400473783 /* 4@模糊工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1021DD40CE400473783 /* 4@模糊工具.png */; };
+		186FB1051DD40D0F00473783 /* 4@O减淡工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1041DD40D0F00473783 /* 4@O减淡工具.png */; };
+		186FB1071DD40D4600473783 /* 4@P钢笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1061DD40D4600473783 /* 4@P钢笔工具.png */; };
+		186FB1091DD40D6600473783 /* 4@T横排文字工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1081DD40D6600473783 /* 4@T横排文字工具.png */; };
+		186FB10B1DD40D8C00473783 /* 4@A路径选择工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB10A1DD40D8C00473783 /* 4@A路径选择工具.png */; };
+		186FB10D1DD40DAB00473783 /* 4@U矩形工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB10C1DD40DAB00473783 /* 4@U矩形工具.png */; };
+		186FB10F1DD40DC500473783 /* 4@H-抓手工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB10E1DD40DC500473783 /* 4@H-抓手工具.png */; };
+		186FB1111DD40E6B00473783 /* 4@Q-以快速蒙板模式编辑.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1101DD40E6B00473783 /* 4@Q-以快速蒙板模式编辑.png */; };
+		186FB1131DD40E9500473783 /* 4@前景色背景色.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1121DD40E9500473783 /* 4@前景色背景色.png */; };
+		186FB1151DD40EDC00473783 /* 选中时背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1141DD40EDC00473783 /* 选中时背景.png */; };
+		186FB1171DD40F4E00473783 /* 4@F标准屏幕模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1161DD40F4E00473783 /* 4@F标准屏幕模式.png */; };
+		186FB1191DD4116400473783 /* 4@缩放.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1181DD4116400473783 /* 4@缩放.png */; };
+		186FB11B1DD411F900473783 /* 黑背.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 186FB11A1DD411F900473783 /* 黑背.jpg */; };
+		186FB1231DD418B400473783 /* V画板工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1211DD418B400473783 /* V画板工具.png */; };
+		186FB1241DD418B400473783 /* V移动.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1221DD418B400473783 /* V移动.png */; };
+		186FB1291DD420F300473783 /* M单列选框工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1251DD420F300473783 /* M单列选框工具.png */; };
+		186FB12A1DD420F300473783 /* M单行选框工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1261DD420F300473783 /* M单行选框工具.png */; };
+		186FB12B1DD420F300473783 /* M矩形选框工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1271DD420F300473783 /* M矩形选框工具.png */; };
+		186FB12C1DD420F300473783 /* M椭圆选框工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1281DD420F300473783 /* M椭圆选框工具.png */; };
+		186FB1301DD421A300473783 /* L磁性套索工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB12D1DD421A300473783 /* L磁性套索工具.png */; };
+		186FB1311DD421A300473783 /* L多边形套索工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB12E1DD421A300473783 /* L多边形套索工具.png */; };
+		186FB1321DD421A300473783 /* L套索工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB12F1DD421A300473783 /* L套索工具.png */; };
+		186FB1351DD4227800473783 /* W快速选择工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1331DD4227800473783 /* W快速选择工具.png */; };
+		186FB1361DD4227800473783 /* W魔棒工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1341DD4227800473783 /* W魔棒工具.png */; };
+		186FB13B1DD422C800473783 /* C裁剪工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1371DD422C800473783 /* C裁剪工具.png */; };
+		186FB13C1DD422C800473783 /* C切片工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1381DD422C800473783 /* C切片工具.png */; };
+		186FB13D1DD422C800473783 /* C切片选择工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1391DD422C800473783 /* C切片选择工具.png */; };
+		186FB13E1DD422C800473783 /* C透视裁剪工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB13A1DD422C800473783 /* C透视裁剪工具.png */; };
+		186FB1451DD4239700473783 /* I3D材质吸管工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB13F1DD4239700473783 /* I3D材质吸管工具.png */; };
+		186FB1461DD4239700473783 /* I标尺工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1401DD4239700473783 /* I标尺工具.png */; };
+		186FB1471DD4239700473783 /* I计数工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1411DD4239700473783 /* I计数工具.png */; };
+		186FB1481DD4239700473783 /* I吸管工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1421DD4239700473783 /* I吸管工具.png */; };
+		186FB1491DD4239700473783 /* I颜色取样器工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1431DD4239700473783 /* I颜色取样器工具.png */; };
+		186FB14A1DD4239700473783 /* I注释工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1441DD4239700473783 /* I注释工具.png */; };
+		186FB1501DD4256A00473783 /* J红眼工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB14B1DD4256A00473783 /* J红眼工具.png */; };
+		186FB1511DD4256A00473783 /* J内容感知移动工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB14C1DD4256A00473783 /* J内容感知移动工具.png */; };
+		186FB1521DD4256A00473783 /* J污点修复画笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB14D1DD4256A00473783 /* J污点修复画笔工具.png */; };
+		186FB1531DD4256A00473783 /* J修补工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB14E1DD4256A00473783 /* J修补工具.png */; };
+		186FB1541DD4256A00473783 /* J修复画笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB14F1DD4256A00473783 /* J修复画笔工具.png */; };
+		186FB1591DD4268600473783 /* B-混合器画笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1551DD4268600473783 /* B-混合器画笔工具.png */; };
+		186FB15A1DD4268600473783 /* B画笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1561DD4268600473783 /* B画笔工具.png */; };
+		186FB15B1DD4268600473783 /* B铅笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1571DD4268600473783 /* B铅笔工具.png */; };
+		186FB15C1DD4268600473783 /* B颜色替换工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1581DD4268600473783 /* B颜色替换工具.png */; };
+		186FB15F1DD4270100473783 /* S仿制图章.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB15D1DD4270100473783 /* S仿制图章.png */; };
+		186FB1601DD4270100473783 /* S图案图章.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB15E1DD4270100473783 /* S图案图章.png */; };
+		186FB1631DD4277200473783 /* Y历史记录画笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1611DD4277200473783 /* Y历史记录画笔.png */; };
+		186FB1641DD4277200473783 /* Y历史记录艺术画笔.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1621DD4277200473783 /* Y历史记录艺术画笔.png */; };
+		186FB1681DD4280900473783 /* E背景橡皮擦工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1651DD4280900473783 /* E背景橡皮擦工具.png */; };
+		186FB1691DD4280900473783 /* E魔术橡皮擦.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1661DD4280900473783 /* E魔术橡皮擦.png */; };
+		186FB16A1DD4280900473783 /* E橡皮擦工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1671DD4280900473783 /* E橡皮擦工具.png */; };
+		186FB16E1DD4411800473783 /* G3D材质拖放工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB16B1DD4411800473783 /* G3D材质拖放工具.png */; };
+		186FB16F1DD4411800473783 /* G渐变工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB16C1DD4411800473783 /* G渐变工具.png */; };
+		186FB1701DD4411800473783 /* G油漆桶工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB16D1DD4411800473783 /* G油漆桶工具.png */; };
+		186FB1741DD441C900473783 /* 模糊工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1711DD441C900473783 /* 模糊工具.png */; };
+		186FB1751DD441C900473783 /* 锐化工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1721DD441C900473783 /* 锐化工具.png */; };
+		186FB1761DD441C900473783 /* 涂抹工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1731DD441C900473783 /* 涂抹工具.png */; };
+		186FB17A1DD4420900473783 /* O海面工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1771DD4420900473783 /* O海面工具.png */; };
+		186FB17B1DD4420900473783 /* O加深工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1781DD4420900473783 /* O加深工具.png */; };
+		186FB17C1DD4420900473783 /* O减淡工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1791DD4420900473783 /* O减淡工具.png */; };
+		186FB1821DD4428800473783 /* P钢笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB17D1DD4428800473783 /* P钢笔工具.png */; };
+		186FB1831DD4428800473783 /* P删除锚点工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB17E1DD4428800473783 /* P删除锚点工具.png */; };
+		186FB1841DD4428800473783 /* P添加锚点工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB17F1DD4428800473783 /* P添加锚点工具.png */; };
+		186FB1851DD4428800473783 /* P转换点工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1801DD4428800473783 /* P转换点工具.png */; };
+		186FB1861DD4428800473783 /* P自由钢笔工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1811DD4428800473783 /* P自由钢笔工具.png */; };
+		186FB18B1DD4432700473783 /* P文字蒙板工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1871DD4432700473783 /* P文字蒙板工具.png */; };
+		186FB18C1DD4432700473783 /* P直排文字工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1881DD4432700473783 /* P直排文字工具.png */; };
+		186FB18D1DD4432700473783 /* P直排文字蒙板工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1891DD4432700473783 /* P直排文字蒙板工具.png */; };
+		186FB1901DD4438800473783 /* T横排文字工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB18F1DD4438800473783 /* T横排文字工具.png */; };
+		186FB1931DD4441D00473783 /* A路径选择工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1911DD4441D00473783 /* A路径选择工具.png */; };
+		186FB1941DD4441D00473783 /* A直接选择工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1921DD4441D00473783 /* A直接选择工具.png */; };
+		186FB19B1DD4448F00473783 /* U多边形工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1951DD4448F00473783 /* U多边形工具.png */; };
+		186FB19C1DD4448F00473783 /* U矩形工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1961DD4448F00473783 /* U矩形工具.png */; };
+		186FB19D1DD4448F00473783 /* U椭圆工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1971DD4448F00473783 /* U椭圆工具.png */; };
+		186FB19E1DD4448F00473783 /* U圆角矩形工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1981DD4448F00473783 /* U圆角矩形工具.png */; };
+		186FB19F1DD4448F00473783 /* U直线工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1991DD4448F00473783 /* U直线工具.png */; };
+		186FB1A01DD4448F00473783 /* U自定形状工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB19A1DD4448F00473783 /* U自定形状工具.png */; };
+		186FB1A31DD4454100473783 /* H-抓手工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1A11DD4454100473783 /* H-抓手工具.png */; };
+		186FB1A41DD4454100473783 /* R旋转视图工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1A21DD4454100473783 /* R旋转视图工具.png */; };
+		186FB1A81DD446A000473783 /* F-带有菜单栏的全屏模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1A51DD446A000473783 /* F-带有菜单栏的全屏模式.png */; };
+		186FB1A91DD446A000473783 /* F-全屏模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1A61DD446A000473783 /* F-全屏模式.png */; };
+		186FB1AA1DD446A000473783 /* F标准屏幕模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1A71DD446A000473783 /* F标准屏幕模式.png */; };
+		186FB1AD1DD44B7E00473783 /* ToolModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FB1AC1DD44B7E00473783 /* ToolModel.m */; };
+		186FB1B61DD47E7F00473783 /* ToolBarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FB1B41DD47E7F00473783 /* ToolBarTableViewCell.m */; };
+		186FB1B71DD47E7F00473783 /* ToolBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186FB1B51DD47E7F00473783 /* ToolBarTableViewCell.xib */; };
+		1876B4161DDBF01D0002B4A2 /* I1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4151DDBF01D0002B4A2 /* I1.png */; };
+		1876B4181DDBFCEA0002B4A2 /* I2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4171DDBFCEA0002B4A2 /* I2.png */; };
+		1876B41A1DDC00910002B4A2 /* 下拉框.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4191DDC00910002B4A2 /* 下拉框.png */; };
+		1876B41C1DDC015D0002B4A2 /* I3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B41B1DDC015D0002B4A2 /* I3.png */; };
+		1876B41E1DDC0EBE0002B4A2 /* I4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B41D1DDC0EBE0002B4A2 /* I4.png */; };
+		1876B4201DDC0FA90002B4A2 /* I5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B41F1DDC0FA90002B4A2 /* I5.png */; };
+		1876B4221DDC10EC0002B4A2 /* 注释颜色工具.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4211DDC10EC0002B4A2 /* 注释颜色工具.png */; };
+		1876B4241DDC289F0002B4A2 /* 注释.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4231DDC289F0002B4A2 /* 注释.png */; };
+		1876B4261DDC2F620002B4A2 /* I6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4251DDC2F620002B4A2 /* I6.png */; };
+		1876B4281DDC30230002B4A2 /* 创建新的技术组.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4271DDC30230002B4A2 /* 创建新的技术组.png */; };
+		1876B42A1DDC303D0002B4A2 /* 切换计数组的可见性.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B4291DDC303D0002B4A2 /* 切换计数组的可见性.png */; };
+		1876B42C1DDC305C0002B4A2 /* 删除计数组.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B42B1DDC305C0002B4A2 /* 删除计数组.png */; };
+		1876B42E1DDC34D50002B4A2 /* 色块.png in Resources */ = {isa = PBXBuildFile; fileRef = 1876B42D1DDC34D50002B4A2 /* 色块.png */; };
+		18A913961DE6C883004FBF82 /* 菜单.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913951DE6C883004FBF82 /* 菜单.png */; };
+		18A913991DE6C8ED004FBF82 /* 库1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913971DE6C8ED004FBF82 /* 库1.png */; };
+		18A9139A1DE6C8ED004FBF82 /* 库11.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913981DE6C8ED004FBF82 /* 库11.png */; };
+		18A9139C1DE6C9CF004FBF82 /* 放大镜.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9139B1DE6C9CF004FBF82 /* 放大镜.png */; };
+		18A9139E1DE6CE5E004FBF82 /* 库2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9139D1DE6CE5E004FBF82 /* 库2.png */; };
+		18A913A01DE6CE6B004FBF82 /* 库.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A9139F1DE6CE6B004FBF82 /* 库.png */; };
+		18A913A71DE6E7A4004FBF82 /* 自定义.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913A31DE6E7A4004FBF82 /* 自定义.png */; };
+		18A913AA1DE6EA66004FBF82 /* 关闭.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913A91DE6EA66004FBF82 /* 关闭.png */; };
+		18A913AC1DE6EA9B004FBF82 /* 窗口化.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913AB1DE6EA9B004FBF82 /* 窗口化.png */; };
+		18A913AE1DE6EA9F004FBF82 /* 最小化.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913AD1DE6EA9F004FBF82 /* 最小化.png */; };
+		18A913B01DE6EE75004FBF82 /* 色板.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A913AF1DE6EE75004FBF82 /* 色板.png */; };
+		18AC7ADE1DE68BA40043ADE3 /* 像素图层过滤器.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7ADD1DE68BA40043ADE3 /* 像素图层过滤器.png */; };
+		18AC7AE01DE68BD10043ADE3 /* 调整图层过滤器.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7ADF1DE68BD10043ADE3 /* 调整图层过滤器.png */; };
+		18AC7AE21DE68C100043ADE3 /* 形状层过滤器.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AE11DE68C100043ADE3 /* 形状层过滤器.png */; };
+		18AC7AE41DE68C250043ADE3 /* 智能对像过滤器.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AE31DE68C250043ADE3 /* 智能对像过滤器.png */; };
+		18AC7AE61DE68C310043ADE3 /* 开关关.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AE51DE68C310043ADE3 /* 开关关.png */; };
+		18AC7AE81DE69A170043ADE3 /* 图层上锁头.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AE71DE69A170043ADE3 /* 图层上锁头.png */; };
+		18AC7AEA1DE69A380043ADE3 /* 锁定位置.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AE91DE69A380043ADE3 /* 锁定位置.png */; };
+		18AC7AEC1DE69A4D0043ADE3 /* 锁定图像像素.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AEB1DE69A4D0043ADE3 /* 锁定图像像素.png */; };
+		18AC7AEE1DE69A6A0043ADE3 /* 防止在画板内外自动嵌套.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AED1DE69A6A0043ADE3 /* 防止在画板内外自动嵌套.png */; };
+		18AC7AF01DE69B4B0043ADE3 /* 框2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AEF1DE69B4B0043ADE3 /* 框2.png */; };
+		18AC7AF21DE6B4DD0043ADE3 /* 大组.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AF11DE6B4DD0043ADE3 /* 大组.png */; };
+		18AC7AF41DE6B4F90043ADE3 /* 创建心的填充或调整图层.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AF31DE6B4F90043ADE3 /* 创建心的填充或调整图层.png */; };
+		18AC7AF61DE6B5040043ADE3 /* 连接图层.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AF51DE6B5040043ADE3 /* 连接图层.png */; };
+		18AC7AF81DE6B5270043ADE3 /* 蒙板.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AF71DE6B5270043ADE3 /* 蒙板.png */; };
+		18AC7AFA1DE6B5480043ADE3 /* 图层样式.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AF91DE6B5480043ADE3 /* 图层样式.png */; };
+		18AC7AFC1DE6B56D0043ADE3 /* 新图层.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AFB1DE6B56D0043ADE3 /* 新图层.png */; };
+		18AC7AFE1DE6B5E30043ADE3 /* 删除1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AFD1DE6B5E30043ADE3 /* 删除1.png */; };
+		18AC7B001DE6B7E50043ADE3 /* 文字图层过滤器.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7AFF1DE6B7E50043ADE3 /* 文字图层过滤器.png */; };
+		18AC7B021DE6BA3D0043ADE3 /* 将路径作为选区载入.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7B011DE6BA3D0043ADE3 /* 将路径作为选区载入.png */; };
+		18AC7B041DE6BB9D0043ADE3 /* 使用前景色填充路径.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7B031DE6BB9D0043ADE3 /* 使用前景色填充路径.png */; };
+		18AC7B061DE6BBC10043ADE3 /* 用画笔描边路径.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7B051DE6BBC10043ADE3 /* 用画笔描边路径.png */; };
+		18AC7B081DE6BBF90043ADE3 /* 从选区生成工作路径.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AC7B071DE6BBF90043ADE3 /* 从选区生成工作路径.png */; };
+		18C78A0D1E1DE310007FE7C4 /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C78A0B1E1DE310007FE7C4 /* List.plist */; };
+		18C78A0E1E1DE310007FE7C4 /* toolbar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C78A0C1E1DE310007FE7C4 /* toolbar.plist */; };
+		18D5405D1DD32BAE00D08AF0 /* msyh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5405C1DD32BAE00D08AF0 /* msyh.ttf */; };
+		18D5405E1DD32BAE00D08AF0 /* msyh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D5405C1DD32BAE00D08AF0 /* msyh.ttf */; };
+		3C00CB9D1DCC165C00843FB6 /* 矩形-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C00CB9C1DCC165C00843FB6 /* 矩形-1.png */; };
+		3C0C1B941DCB0A2600532376 /* SecTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C1B921DCB0A2600532376 /* SecTableViewCell.m */; };
+		3C0C1B951DCB0A2600532376 /* SecTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0C1B931DCB0A2600532376 /* SecTableViewCell.xib */; };
+		3C20C9F61DD02CDD00A29A02 /* 线.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C20C9F51DD02CDD00A29A02 /* 线.png */; };
+		3C5D061A1DC9C06500AA428B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D06181DC9C06500AA428B /* TableViewCell.m */; };
+		3C5D061B1DC9C06500AA428B /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5D06191DC9C06500AA428B /* TableViewCell.xib */; };
+		3CDD35C91DCB483A00F9AE2A /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDD35C81DCB483A00F9AE2A /* UIScrollView+UITouch.m */; };
+		3CF644761DC99530003177FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF644751DC99530003177FC /* main.m */; };
+		3CF644791DC99530003177FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF644781DC99530003177FC /* AppDelegate.m */; };
+		3CF644811DC99530003177FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF644801DC99530003177FC /* Assets.xcassets */; };
+		3CF644841DC99530003177FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF644821DC99530003177FC /* LaunchScreen.storyboard */; };
+		3CF6448F1DC99530003177FC /* Demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6448E1DC99530003177FC /* Demo2Tests.m */; };
+		3CF6449A1DC99530003177FC /* Demo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF644991DC99530003177FC /* Demo2UITests.m */; };
+		3CF644B21DC995CD003177FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF644AD1DC995CD003177FC /* MainViewController.m */; };
+		3CF644B31DC995CD003177FC /* Mode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF644AF1DC995CD003177FC /* Mode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF6448B1DC99530003177FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF644691DC9952F003177FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF644701DC99530003177FC;
+			remoteInfo = Demo2;
+		};
+		3CF644961DC99530003177FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF644691DC9952F003177FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF644701DC99530003177FC;
+			remoteInfo = Demo2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180025A71DD15EF500F14BBF /* DMDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDropDownMenu.h; sourceTree = "<group>"; };
+		180025A81DD15EF500F14BBF /* DMDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDropDownMenu.m; sourceTree = "<group>"; };
+		1814D9051DD94D0F000CD0FC /* 高度和宽度互换.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高度和宽度互换.png"; sourceTree = "<group>"; };
+		1814D9091DD95161000CD0FC /* 4@画板工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@画板工具.png"; sourceTree = "<group>"; };
+		1814D90B1DD95AF9000CD0FC /* 制作纵版.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "制作纵版.png"; sourceTree = "<group>"; };
+		1814D90D1DD95B00000CD0FC /* 制作横版.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "制作横版.png"; sourceTree = "<group>"; };
+		1814D90F1DD95B12000CD0FC /* 添加新画板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加新画板.png"; sourceTree = "<group>"; };
+		1814D9111DD95BBA000CD0FC /* 设置画板行为.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置画板行为.png"; sourceTree = "<group>"; };
+		1814D9151DD96EBC000CD0FC /* 使用手绘板压力增加钢笔宽度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用手绘板压力增加钢笔宽度.png"; sourceTree = "<group>"; };
+		1814D9171DD986DE000CD0FC /* 磁性套索工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "磁性套索工具.png"; sourceTree = "<group>"; };
+		1814D9191DD987DE000CD0FC /* 套索工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "套索工具.png"; sourceTree = "<group>"; };
+		1814D91B1DD988B0000CD0FC /* V上点击.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V上点击.png"; sourceTree = "<group>"; };
+		1814D91D1DD99952000CD0FC /* M1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M1.png; sourceTree = "<group>"; };
+		1814D91F1DD99B11000CD0FC /* V4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V4.png; sourceTree = "<group>"; };
+		1814D9211DD99C34000CD0FC /* V1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V1.png; sourceTree = "<group>"; };
+		1814D9231DD9A017000CD0FC /* V22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V22.png; sourceTree = "<group>"; };
+		1814D9251DD9A19A000CD0FC /* V5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V5.png; sourceTree = "<group>"; };
+		181F7E291DF012C0007CCE93 /* F1线条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F1线条.png"; sourceTree = "<group>"; };
+		181F7E2B1DF01569007CCE93 /* F1箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F1箭头.png"; sourceTree = "<group>"; };
+		182E41921DF93255006E86D6 /* 猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫.jpg"; sourceTree = "<group>"; };
+		182E41961DF936C3006E86D6 /* 乔巴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乔巴.jpg"; sourceTree = "<group>"; };
+		183042C51DE52472003C34CF /* Z1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Z1.png; sourceTree = "<group>"; };
+		183042C61DE52472003C34CF /* Z1小.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Z1小.png"; sourceTree = "<group>"; };
+		183042C71DE52472003C34CF /* Z2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Z2.png; sourceTree = "<group>"; };
+		183042C81DE52472003C34CF /* Z2大.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Z2大.png"; sourceTree = "<group>"; };
+		183042CD1DE53600003C34CF /* 默认颜色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认颜色.png"; sourceTree = "<group>"; };
+		183042CF1DE5385C003C34CF /* 大颜色块.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大颜色块.png"; sourceTree = "<group>"; };
+		183042D11DE5394D003C34CF /* 小色块.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小色块.png"; sourceTree = "<group>"; };
+		183042D31DE539EB003C34CF /* 指针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指针.png"; sourceTree = "<group>"; };
+		18316AA01DF8002700B3BCE5 /* 下拉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉.png"; sourceTree = "<group>"; };
+		18316AA21DF806F000B3BCE5 /* 小三角.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小三角.png"; sourceTree = "<group>"; };
+		18316AA41DF80A2C00B3BCE5 /* 旋转十字标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋转十字标.png"; sourceTree = "<group>"; };
+		18316AA61DF8134500B3BCE5 /* 惊叹号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "惊叹号.png"; sourceTree = "<group>"; };
+		183204551DE3DBB8000D2E42 /* P1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1.png; sourceTree = "<group>"; };
+		183204561DE3DBB8000D2E42 /* P2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P2.png; sourceTree = "<group>"; };
+		183204571DE3DBB8000D2E42 /* P3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P3.png; sourceTree = "<group>"; };
+		183204581DE3DBB8000D2E42 /* P4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P4.png; sourceTree = "<group>"; };
+		183204591DE3DBB8000D2E42 /* P5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P5.png; sourceTree = "<group>"; };
+		183204601DE3EFFE000D2E42 /* T1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1.png; sourceTree = "<group>"; };
+		183204611DE3EFFE000D2E42 /* T2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T2.png; sourceTree = "<group>"; };
+		183204621DE3EFFE000D2E42 /* T3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T3.png; sourceTree = "<group>"; };
+		183204631DE3EFFE000D2E42 /* T4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T4.png; sourceTree = "<group>"; };
+		183204681DE3F04B000D2E42 /* T6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T6.png; sourceTree = "<group>"; };
+		1832046A1DE3F27C000D2E42 /* T5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T5.png; sourceTree = "<group>"; };
+		1832046C1DE3F288000D2E42 /* T8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T8.png; sourceTree = "<group>"; };
+		1832046E1DE3F656000D2E42 /* T11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T11.png; sourceTree = "<group>"; };
+		183204701DE3F665000D2E42 /* T21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T21.png; sourceTree = "<group>"; };
+		183204711DE3F665000D2E42 /* T31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T31.png; sourceTree = "<group>"; };
+		183204721DE3F665000D2E42 /* T41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T41.png; sourceTree = "<group>"; };
+		183204761DE3F68B000D2E42 /* T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T.png; sourceTree = "<group>"; };
+		183204781DE3F6B6000D2E42 /* T10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T10.png; sourceTree = "<group>"; };
+		1832047B1DE41732000D2E42 /* A1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A1.png; sourceTree = "<group>"; };
+		1832047C1DE41732000D2E42 /* A2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A2.png; sourceTree = "<group>"; };
+		1832047F1DE41A91000D2E42 /* A11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A11.png; sourceTree = "<group>"; };
+		183204801DE41A91000D2E42 /* A22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A22.png; sourceTree = "<group>"; };
+		183204831DE41BA3000D2E42 /* A44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A44.png; sourceTree = "<group>"; };
+		183204851DE41F1D000D2E42 /* A66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A66.png; sourceTree = "<group>"; };
+		183204871DE421FB000D2E42 /* 前移1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前移1.png"; sourceTree = "<group>"; };
+		1832048A1DE4383E000D2E42 /* U1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U1.png; sourceTree = "<group>"; };
+		1832048B1DE4383E000D2E42 /* U2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U2.png; sourceTree = "<group>"; };
+		1832048C1DE4383E000D2E42 /* U3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U3.png; sourceTree = "<group>"; };
+		1832048D1DE4383E000D2E42 /* U4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U4.png; sourceTree = "<group>"; };
+		1832048E1DE4383E000D2E42 /* U5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U5.png; sourceTree = "<group>"; };
+		1832048F1DE4383E000D2E42 /* U6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U6.png; sourceTree = "<group>"; };
+		183204971DE43A0A000D2E42 /* H1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H1.png; sourceTree = "<group>"; };
+		183204981DE43A0A000D2E42 /* H2R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H2R.png; sourceTree = "<group>"; };
+		1832049B1DE44076000D2E42 /* R1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R1.png; sourceTree = "<group>"; };
+		1832D5A21DDAA2F600A05656 /* W1(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W1(1).png"; sourceTree = "<group>"; };
+		1832D5A41DDAA5D000A05656 /* W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W.png; sourceTree = "<group>"; };
+		1832D5A51DDAA5D000A05656 /* W1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W1.png; sourceTree = "<group>"; };
+		1832D5A61DDAA5D000A05656 /* W2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W2.png; sourceTree = "<group>"; };
+		1832D5AA1DDAA80900A05656 /* 笔刷控制.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "笔刷控制.png"; sourceTree = "<group>"; };
+		1832D5AE1DDAB14300A05656 /* W22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W22.png; sourceTree = "<group>"; };
+		1832D5B01DDAD7E300A05656 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		1832D5B31DDAE2F300A05656 /* C3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C3.png; sourceTree = "<group>"; };
+		1832D5B51DDAE48700A05656 /* C4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C4.png; sourceTree = "<group>"; };
+		1832D5B71DDAE9A100A05656 /* C1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C1.png; sourceTree = "<group>"; };
+		1832D5B91DDAECE800A05656 /* 拉直.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拉直.png"; sourceTree = "<group>"; };
+		1832D5BB1DDAF3F800A05656 /* 设置裁剪工具的叠加选项1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置裁剪工具的叠加选项1.png"; sourceTree = "<group>"; };
+		1832D5BC1DDAF3F800A05656 /* 设置其他裁切选项.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置其他裁切选项.png"; sourceTree = "<group>"; };
+		1832D5BF1DDAF71700A05656 /* C33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C33.png; sourceTree = "<group>"; };
+		1832D5C11DDAFB5200A05656 /* 复位裁剪框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "复位裁剪框.png"; sourceTree = "<group>"; };
+		1832D5C31DDB004500A05656 /* C2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C2.png; sourceTree = "<group>"; };
+		1832D5C51DDB0A1000A05656 /* C44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C44.png; sourceTree = "<group>"; };
+		1832D5C71DDB0BF300A05656 /* 置为底层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "置为底层.png"; sourceTree = "<group>"; };
+		1832D5C81DDB0BF300A05656 /* 置为顶层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "置为顶层.png"; sourceTree = "<group>"; };
+		1832D5CB1DDB0C1200A05656 /* 后移一层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "后移一层.png"; sourceTree = "<group>"; };
+		1832D5CC1DDB0C1200A05656 /* 前移一层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前移一层.png"; sourceTree = "<group>"; };
+		1832D5CF1DDB11DC00A05656 /* 为当前切片设置选项.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "为当前切片设置选项.png"; sourceTree = "<group>"; };
+		1833ABA51DEE754300904397 /* 颜色图片838383.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "颜色图片838383.png"; sourceTree = "<group>"; };
+		1837285C1DE566BD004F0D31 /* 更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多.png"; sourceTree = "<group>"; };
+		1837285E1DE56F25004F0D31 /* 4X样式面板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4X样式面板.png"; sourceTree = "<group>"; };
+		183728601DE578F1004F0D31 /* 清除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除.png"; sourceTree = "<group>"; };
+		183728611DE578F1004F0D31 /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除.png"; sourceTree = "<group>"; };
+		183728621DE578F1004F0D31 /* 新建.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新建.png"; sourceTree = "<group>"; };
+		183728671DE57CCB004F0D31 /* 色板2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色板2.png"; sourceTree = "<group>"; };
+		1837286A1DE59534004F0D31 /* 色阶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色阶.png"; sourceTree = "<group>"; };
+		1837286C1DE5953E004F0D31 /* 亮度对比度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "亮度对比度.png"; sourceTree = "<group>"; };
+		1837286D1DE5953E004F0D31 /* 曲线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "曲线.png"; sourceTree = "<group>"; };
+		183728701DE59557004F0D31 /* 曝光度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "曝光度.png"; sourceTree = "<group>"; };
+		183728721DE59577004F0D31 /* 自然饱和度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自然饱和度.png"; sourceTree = "<group>"; };
+		183728741DE595AD004F0D31 /* 色彩平衡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色彩平衡.png"; sourceTree = "<group>"; };
+		183728761DE595C7004F0D31 /* 黑白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑白.png"; sourceTree = "<group>"; };
+		183728781DE595D9004F0D31 /* 照片滤镜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "照片滤镜.png"; sourceTree = "<group>"; };
+		1837287A1DE595F0004F0D31 /* 通道混合器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通道混合器.png"; sourceTree = "<group>"; };
+		1837287C1DE59605004F0D31 /* 颜色查找.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "颜色查找.png"; sourceTree = "<group>"; };
+		1837287E1DE5962E004F0D31 /* 反相.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "反相.png"; sourceTree = "<group>"; };
+		183728801DE59641004F0D31 /* 色调分离.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色调分离.png"; sourceTree = "<group>"; };
+		183728821DE59655004F0D31 /* 阈值.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阈值.png"; sourceTree = "<group>"; };
+		183728841DE59674004F0D31 /* 可选颜色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "可选颜色.png"; sourceTree = "<group>"; };
+		183728861DE59686004F0D31 /* 渐变映射.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐变映射.png"; sourceTree = "<group>"; };
+		183728881DE5979D004F0D31 /* 色相饱和度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色相饱和度.png"; sourceTree = "<group>"; };
+		1837288A1DE5A009004F0D31 /* 3D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3D.png; sourceTree = "<group>"; };
+		1837288B1DE5A009004F0D31 /* 段落.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "段落.png"; sourceTree = "<group>"; };
+		1837288C1DE5A009004F0D31 /* 画笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "画笔.png"; sourceTree = "<group>"; };
+		1837288D1DE5A009004F0D31 /* 画笔预设.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "画笔预设.png"; sourceTree = "<group>"; };
+		1837288E1DE5A009004F0D31 /* 属性面板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "属性面板.png"; sourceTree = "<group>"; };
+		1837288F1DE5A009004F0D31 /* 字符.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "字符.png"; sourceTree = "<group>"; };
+		183728901DE5A009004F0D31 /* Device-Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Device-Preview.png"; sourceTree = "<group>"; };
+		183728981DE5A17F004F0D31 /* 横线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "横线.png"; sourceTree = "<group>"; };
+		18384F0A1DDD3BE800F4CEF2 /* 切换仿制源面板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切换仿制源面板.png"; sourceTree = "<group>"; };
+		18384F0C1DDD3C2A00F4CEF2 /* J2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J2.png; sourceTree = "<group>"; };
+		18384F0E1DDD43C500F4CEF2 /* 打开以复制时忽略调整图层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "打开以复制时忽略调整图层.png"; sourceTree = "<group>"; };
+		18384F101DDD4D1F00F4CEF2 /* J3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J3.png; sourceTree = "<group>"; };
+		18384F121DDD5C2E00F4CEF2 /* J4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J4.png; sourceTree = "<group>"; };
+		18384F141DDD7C6900F4CEF2 /* J5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J5.png; sourceTree = "<group>"; };
+		18384F161DDD8B0F00F4CEF2 /* 始终对不透明度使用压力.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "始终对不透明度使用压力.png"; sourceTree = "<group>"; };
+		18384F181DDD8B3600F4CEF2 /* 启用喷枪样式的建立效果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启用喷枪样式的建立效果.png"; sourceTree = "<group>"; };
+		18384F1B1DDD8D3D00F4CEF2 /* 切换至画笔面板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切换至画笔面板.png"; sourceTree = "<group>"; };
+		18384F1D1DDDA29300F4CEF2 /* B1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B1.png; sourceTree = "<group>"; };
+		18384F1E1DDDA29300F4CEF2 /* B2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B2.png; sourceTree = "<group>"; };
+		18384F1F1DDDA29300F4CEF2 /* B3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B3.png; sourceTree = "<group>"; };
+		18384F201DDDA29300F4CEF2 /* B4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B4.png; sourceTree = "<group>"; };
+		18384F251DDDB59200F4CEF2 /* 取样连续.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取样连续.png"; sourceTree = "<group>"; };
+		18384F271DDDB5B400F4CEF2 /* 取样背景色板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取样背景色板.png"; sourceTree = "<group>"; };
+		18384F291DDDB5C300F4CEF2 /* 取样1次.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取样1次.png"; sourceTree = "<group>"; };
+		18384F2B1DDDB87C00F4CEF2 /* 每次描边后载入画笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "每次描边后载入画笔.png"; sourceTree = "<group>"; };
+		18384F2D1DDDB8A200F4CEF2 /* 每次描边后清理画笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "每次描边后清理画笔.png"; sourceTree = "<group>"; };
+		18384F2F1DDDB8E000F4CEF2 /* 色块2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色块2.png"; sourceTree = "<group>"; };
+		183BD3EF1DE28AC4005EA055 /* G1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G1.png; sourceTree = "<group>"; };
+		183BD3F01DE28AC4005EA055 /* G2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G2.png; sourceTree = "<group>"; };
+		183BD3F11DE28AC4005EA055 /* G3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G3.png; sourceTree = "<group>"; };
+		183BD3F61DE28B4A005EA055 /* 渐1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐1.png"; sourceTree = "<group>"; };
+		183BD3F71DE28B4A005EA055 /* 渐2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐2.png"; sourceTree = "<group>"; };
+		183BD3F81DE28B4A005EA055 /* 渐3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐3.png"; sourceTree = "<group>"; };
+		183BD3F91DE28B4A005EA055 /* 渐4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐4.png"; sourceTree = "<group>"; };
+		183BD3FA1DE28B4A005EA055 /* 渐5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐5.png"; sourceTree = "<group>"; };
+		183BD3FB1DE28B4A005EA055 /* 渐变.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "渐变.png"; sourceTree = "<group>"; };
+		183BD4021DE28BD8005EA055 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		183BD4041DE29B88005EA055 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		183BD4071DE2CC52005EA055 /* 模糊工具1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模糊工具1.png"; sourceTree = "<group>"; };
+		183BD4081DE2CC52005EA055 /* 锐化工具1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锐化工具1.png"; sourceTree = "<group>"; };
+		183BD4091DE2CC52005EA055 /* 涂抹工具1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "涂抹工具1.png"; sourceTree = "<group>"; };
+		183BD40F1DE2E042005EA055 /* O1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O1.png; sourceTree = "<group>"; };
+		183BD4101DE2E042005EA055 /* O2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O2.png; sourceTree = "<group>"; };
+		183BD4111DE2E042005EA055 /* O3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O3.png; sourceTree = "<group>"; };
+		183BD4151DE2E4C1005EA055 /* 黑白简便.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑白简便.png"; sourceTree = "<group>"; };
+		184720E71DF68A2500689134 /* XXXXX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XXXXX.png; sourceTree = "<group>"; };
+		184720E91DF6A46800689134 /* 长条1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "长条1.png"; sourceTree = "<group>"; };
+		184720EB1DF6A5C600689134 /* 线111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线111.png"; sourceTree = "<group>"; };
+		184720EF1DF6A79B00689134 /* 框2222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "框2222.png"; sourceTree = "<group>"; };
+		1848B8531DE82EAF0052C86D /* J1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J1.png; sourceTree = "<group>"; };
+		185833EA1DDE9F5700C7CFA6 /* S1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S1.png; sourceTree = "<group>"; };
+		185833EB1DDE9F5700C7CFA6 /* S2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S2.png; sourceTree = "<group>"; };
+		185833EE1DDED3CE00C7CFA6 /* 选择图案.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择图案.png"; sourceTree = "<group>"; };
+		185833F11DDEEA5800C7CFA6 /* Y1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Y1.png; sourceTree = "<group>"; };
+		185833F21DDEEA5800C7CFA6 /* Y2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Y2.png; sourceTree = "<group>"; };
+		185833F61DDEF1D000C7CFA6 /* E1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E1.png; sourceTree = "<group>"; };
+		185833F71DDEF1D000C7CFA6 /* E2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E2.png; sourceTree = "<group>"; };
+		185833F81DDEF1D000C7CFA6 /* E3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E3.png; sourceTree = "<group>"; };
+		185D6F681DF15FCB000DE9EF /* 线1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线1.png"; sourceTree = "<group>"; };
+		185D6F6C1DF16295000DE9EF /* 框1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "框1.png"; sourceTree = "<group>"; };
+		185D97291DD557860090E32E /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		185D972B1DD574890090E32E /* 划线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "划线.png"; sourceTree = "<group>"; };
+		185D972E1DD59F8E0090E32E /* 右对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右对齐.png"; sourceTree = "<group>"; };
+		185D972F1DD59F8E0090E32E /* 左对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "左对齐.png"; sourceTree = "<group>"; };
+		185D97321DD59F9D0090E32E /* 垂直居中对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "垂直居中对齐.png"; sourceTree = "<group>"; };
+		185D97331DD59F9D0090E32E /* 垂直居中分布.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "垂直居中分布.png"; sourceTree = "<group>"; };
+		185D97341DD59F9D0090E32E /* 底对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底对齐.png"; sourceTree = "<group>"; };
+		185D97351DD59F9D0090E32E /* 顶对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顶对齐.png"; sourceTree = "<group>"; };
+		185D973A1DD5A1A40090E32E /* 按底分布.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按底分布.png"; sourceTree = "<group>"; };
+		185D973B1DD5A1A40090E32E /* 按顶分布.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按顶分布.png"; sourceTree = "<group>"; };
+		185D973C1DD5A1A40090E32E /* 按右分布.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按右分布.png"; sourceTree = "<group>"; };
+		185D973D1DD5A1A40090E32E /* 按左分布.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按左分布.png"; sourceTree = "<group>"; };
+		185D973E1DD5A1A40090E32E /* 水平居中对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平居中对齐.png"; sourceTree = "<group>"; };
+		185D973F1DD5A1A40090E32E /* 水平居中分布.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平居中分布.png"; sourceTree = "<group>"; };
+		185D97461DD5A4970090E32E /* 自动对齐图层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自动对齐图层.png"; sourceTree = "<group>"; };
+		185D97481DD5AB1E0090E32E /* 环绕移动3D相机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "环绕移动3D相机.png"; sourceTree = "<group>"; };
+		185D974A1DD5AB2F0090E32E /* 滑动3D相机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滑动3D相机.png"; sourceTree = "<group>"; };
+		185D974C1DD5AB510090E32E /* 滚动3D相机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滚动3D相机.png"; sourceTree = "<group>"; };
+		185D974E1DD5AB6A0090E32E /* 变焦3D相机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "变焦3D相机.png"; sourceTree = "<group>"; };
+		185D97501DD5AB8D0090E32E /* 平移3D相机.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "平移3D相机.png"; sourceTree = "<group>"; };
+		185D97521DD5AD270090E32E /* 间隔线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "间隔线.png"; sourceTree = "<group>"; };
+		185D97551DD5C8CA0090E32E /* 新选区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新选区.png"; sourceTree = "<group>"; };
+		185D97571DD5C8E10090E32E /* 添加到选区.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加到选区.png"; sourceTree = "<group>"; };
+		185D97591DD5C8FD0090E32E /* 从选区减去.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "从选区减去.png"; sourceTree = "<group>"; };
+		185D975B1DD5C9190090E32E /* 与选区交叉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "与选区交叉.png"; sourceTree = "<group>"; };
+		186FB0E81DD40B0500473783 /* 4@编辑工具栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@编辑工具栏.png"; sourceTree = "<group>"; };
+		186FB0EA1DD40B2C00473783 /* 4@V移动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@V移动.png"; sourceTree = "<group>"; };
+		186FB0EC1DD40B4500473783 /* 4@M矩形选框工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@M矩形选框工具.png"; sourceTree = "<group>"; };
+		186FB0EE1DD40B7100473783 /* 4@L套索工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@L套索工具.png"; sourceTree = "<group>"; };
+		186FB0F01DD40B9700473783 /* 4@W快速选择工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@W快速选择工具.png"; sourceTree = "<group>"; };
+		186FB0F21DD40BB900473783 /* 4@C裁剪工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@C裁剪工具.png"; sourceTree = "<group>"; };
+		186FB0F41DD40BE500473783 /* 4@I吸管工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@I吸管工具.png"; sourceTree = "<group>"; };
+		186FB0F61DD40C0200473783 /* 4@J红眼工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@J红眼工具.png"; sourceTree = "<group>"; };
+		186FB0F81DD40C2400473783 /* 4@B画笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@B画笔工具.png"; sourceTree = "<group>"; };
+		186FB0FA1DD40C4300473783 /* 4@S仿制图章.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@S仿制图章.png"; sourceTree = "<group>"; };
+		186FB0FC1DD40C6D00473783 /* 4@Y历史记录画笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@Y历史记录画笔.png"; sourceTree = "<group>"; };
+		186FB0FE1DD40C9B00473783 /* 4@E橡皮擦工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@E橡皮擦工具.png"; sourceTree = "<group>"; };
+		186FB1001DD40CBB00473783 /* 4@G渐变工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@G渐变工具.png"; sourceTree = "<group>"; };
+		186FB1021DD40CE400473783 /* 4@模糊工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@模糊工具.png"; sourceTree = "<group>"; };
+		186FB1041DD40D0F00473783 /* 4@O减淡工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@O减淡工具.png"; sourceTree = "<group>"; };
+		186FB1061DD40D4600473783 /* 4@P钢笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@P钢笔工具.png"; sourceTree = "<group>"; };
+		186FB1081DD40D6600473783 /* 4@T横排文字工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@T横排文字工具.png"; sourceTree = "<group>"; };
+		186FB10A1DD40D8C00473783 /* 4@A路径选择工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@A路径选择工具.png"; sourceTree = "<group>"; };
+		186FB10C1DD40DAB00473783 /* 4@U矩形工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@U矩形工具.png"; sourceTree = "<group>"; };
+		186FB10E1DD40DC500473783 /* 4@H-抓手工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@H-抓手工具.png"; sourceTree = "<group>"; };
+		186FB1101DD40E6B00473783 /* 4@Q-以快速蒙板模式编辑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@Q-以快速蒙板模式编辑.png"; sourceTree = "<group>"; };
+		186FB1121DD40E9500473783 /* 4@前景色背景色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@前景色背景色.png"; sourceTree = "<group>"; };
+		186FB1141DD40EDC00473783 /* 选中时背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中时背景.png"; sourceTree = "<group>"; };
+		186FB1161DD40F4E00473783 /* 4@F标准屏幕模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@F标准屏幕模式.png"; sourceTree = "<group>"; };
+		186FB1181DD4116400473783 /* 4@缩放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@缩放.png"; sourceTree = "<group>"; };
+		186FB11A1DD411F900473783 /* 黑背.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑背.jpg"; sourceTree = "<group>"; };
+		186FB1211DD418B400473783 /* V画板工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V画板工具.png"; sourceTree = "<group>"; };
+		186FB1221DD418B400473783 /* V移动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V移动.png"; sourceTree = "<group>"; };
+		186FB1251DD420F300473783 /* M单列选框工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M单列选框工具.png"; sourceTree = "<group>"; };
+		186FB1261DD420F300473783 /* M单行选框工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M单行选框工具.png"; sourceTree = "<group>"; };
+		186FB1271DD420F300473783 /* M矩形选框工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M矩形选框工具.png"; sourceTree = "<group>"; };
+		186FB1281DD420F300473783 /* M椭圆选框工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M椭圆选框工具.png"; sourceTree = "<group>"; };
+		186FB12D1DD421A300473783 /* L磁性套索工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L磁性套索工具.png"; sourceTree = "<group>"; };
+		186FB12E1DD421A300473783 /* L多边形套索工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L多边形套索工具.png"; sourceTree = "<group>"; };
+		186FB12F1DD421A300473783 /* L套索工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L套索工具.png"; sourceTree = "<group>"; };
+		186FB1331DD4227800473783 /* W快速选择工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W快速选择工具.png"; sourceTree = "<group>"; };
+		186FB1341DD4227800473783 /* W魔棒工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "W魔棒工具.png"; sourceTree = "<group>"; };
+		186FB1371DD422C800473783 /* C裁剪工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C裁剪工具.png"; sourceTree = "<group>"; };
+		186FB1381DD422C800473783 /* C切片工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C切片工具.png"; sourceTree = "<group>"; };
+		186FB1391DD422C800473783 /* C切片选择工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C切片选择工具.png"; sourceTree = "<group>"; };
+		186FB13A1DD422C800473783 /* C透视裁剪工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C透视裁剪工具.png"; sourceTree = "<group>"; };
+		186FB13F1DD4239700473783 /* I3D材质吸管工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I3D材质吸管工具.png"; sourceTree = "<group>"; };
+		186FB1401DD4239700473783 /* I标尺工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I标尺工具.png"; sourceTree = "<group>"; };
+		186FB1411DD4239700473783 /* I计数工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I计数工具.png"; sourceTree = "<group>"; };
+		186FB1421DD4239700473783 /* I吸管工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I吸管工具.png"; sourceTree = "<group>"; };
+		186FB1431DD4239700473783 /* I颜色取样器工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I颜色取样器工具.png"; sourceTree = "<group>"; };
+		186FB1441DD4239700473783 /* I注释工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I注释工具.png"; sourceTree = "<group>"; };
+		186FB14B1DD4256A00473783 /* J红眼工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J红眼工具.png"; sourceTree = "<group>"; };
+		186FB14C1DD4256A00473783 /* J内容感知移动工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J内容感知移动工具.png"; sourceTree = "<group>"; };
+		186FB14D1DD4256A00473783 /* J污点修复画笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J污点修复画笔工具.png"; sourceTree = "<group>"; };
+		186FB14E1DD4256A00473783 /* J修补工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J修补工具.png"; sourceTree = "<group>"; };
+		186FB14F1DD4256A00473783 /* J修复画笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "J修复画笔工具.png"; sourceTree = "<group>"; };
+		186FB1551DD4268600473783 /* B-混合器画笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B-混合器画笔工具.png"; sourceTree = "<group>"; };
+		186FB1561DD4268600473783 /* B画笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B画笔工具.png"; sourceTree = "<group>"; };
+		186FB1571DD4268600473783 /* B铅笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B铅笔工具.png"; sourceTree = "<group>"; };
+		186FB1581DD4268600473783 /* B颜色替换工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B颜色替换工具.png"; sourceTree = "<group>"; };
+		186FB15D1DD4270100473783 /* S仿制图章.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S仿制图章.png"; sourceTree = "<group>"; };
+		186FB15E1DD4270100473783 /* S图案图章.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S图案图章.png"; sourceTree = "<group>"; };
+		186FB1611DD4277200473783 /* Y历史记录画笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Y历史记录画笔.png"; sourceTree = "<group>"; };
+		186FB1621DD4277200473783 /* Y历史记录艺术画笔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Y历史记录艺术画笔.png"; sourceTree = "<group>"; };
+		186FB1651DD4280900473783 /* E背景橡皮擦工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E背景橡皮擦工具.png"; sourceTree = "<group>"; };
+		186FB1661DD4280900473783 /* E魔术橡皮擦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E魔术橡皮擦.png"; sourceTree = "<group>"; };
+		186FB1671DD4280900473783 /* E橡皮擦工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E橡皮擦工具.png"; sourceTree = "<group>"; };
+		186FB16B1DD4411800473783 /* G3D材质拖放工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G3D材质拖放工具.png"; sourceTree = "<group>"; };
+		186FB16C1DD4411800473783 /* G渐变工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G渐变工具.png"; sourceTree = "<group>"; };
+		186FB16D1DD4411800473783 /* G油漆桶工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "G油漆桶工具.png"; sourceTree = "<group>"; };
+		186FB1711DD441C900473783 /* 模糊工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模糊工具.png"; sourceTree = "<group>"; };
+		186FB1721DD441C900473783 /* 锐化工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锐化工具.png"; sourceTree = "<group>"; };
+		186FB1731DD441C900473783 /* 涂抹工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "涂抹工具.png"; sourceTree = "<group>"; };
+		186FB1771DD4420900473783 /* O海面工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "O海面工具.png"; sourceTree = "<group>"; };
+		186FB1781DD4420900473783 /* O加深工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "O加深工具.png"; sourceTree = "<group>"; };
+		186FB1791DD4420900473783 /* O减淡工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "O减淡工具.png"; sourceTree = "<group>"; };
+		186FB17D1DD4428800473783 /* P钢笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P钢笔工具.png"; sourceTree = "<group>"; };
+		186FB17E1DD4428800473783 /* P删除锚点工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P删除锚点工具.png"; sourceTree = "<group>"; };
+		186FB17F1DD4428800473783 /* P添加锚点工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P添加锚点工具.png"; sourceTree = "<group>"; };
+		186FB1801DD4428800473783 /* P转换点工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P转换点工具.png"; sourceTree = "<group>"; };
+		186FB1811DD4428800473783 /* P自由钢笔工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P自由钢笔工具.png"; sourceTree = "<group>"; };
+		186FB1871DD4432700473783 /* P文字蒙板工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P文字蒙板工具.png"; sourceTree = "<group>"; };
+		186FB1881DD4432700473783 /* P直排文字工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P直排文字工具.png"; sourceTree = "<group>"; };
+		186FB1891DD4432700473783 /* P直排文字蒙板工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P直排文字蒙板工具.png"; sourceTree = "<group>"; };
+		186FB18F1DD4438800473783 /* T横排文字工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "T横排文字工具.png"; sourceTree = "<group>"; };
+		186FB1911DD4441D00473783 /* A路径选择工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A路径选择工具.png"; sourceTree = "<group>"; };
+		186FB1921DD4441D00473783 /* A直接选择工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A直接选择工具.png"; sourceTree = "<group>"; };
+		186FB1951DD4448F00473783 /* U多边形工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U多边形工具.png"; sourceTree = "<group>"; };
+		186FB1961DD4448F00473783 /* U矩形工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U矩形工具.png"; sourceTree = "<group>"; };
+		186FB1971DD4448F00473783 /* U椭圆工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U椭圆工具.png"; sourceTree = "<group>"; };
+		186FB1981DD4448F00473783 /* U圆角矩形工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U圆角矩形工具.png"; sourceTree = "<group>"; };
+		186FB1991DD4448F00473783 /* U直线工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U直线工具.png"; sourceTree = "<group>"; };
+		186FB19A1DD4448F00473783 /* U自定形状工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U自定形状工具.png"; sourceTree = "<group>"; };
+		186FB1A11DD4454100473783 /* H-抓手工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "H-抓手工具.png"; sourceTree = "<group>"; };
+		186FB1A21DD4454100473783 /* R旋转视图工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "R旋转视图工具.png"; sourceTree = "<group>"; };
+		186FB1A51DD446A000473783 /* F-带有菜单栏的全屏模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F-带有菜单栏的全屏模式.png"; sourceTree = "<group>"; };
+		186FB1A61DD446A000473783 /* F-全屏模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F-全屏模式.png"; sourceTree = "<group>"; };
+		186FB1A71DD446A000473783 /* F标准屏幕模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F标准屏幕模式.png"; sourceTree = "<group>"; };
+		186FB1AB1DD44B7E00473783 /* ToolModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolModel.h; sourceTree = "<group>"; };
+		186FB1AC1DD44B7E00473783 /* ToolModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolModel.m; sourceTree = "<group>"; };
+		186FB1B31DD47E7F00473783 /* ToolBarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarTableViewCell.h; sourceTree = "<group>"; };
+		186FB1B41DD47E7F00473783 /* ToolBarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarTableViewCell.m; sourceTree = "<group>"; };
+		186FB1B51DD47E7F00473783 /* ToolBarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolBarTableViewCell.xib; sourceTree = "<group>"; };
+		1876B4151DDBF01D0002B4A2 /* I1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I1.png; sourceTree = "<group>"; };
+		1876B4171DDBFCEA0002B4A2 /* I2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I2.png; sourceTree = "<group>"; };
+		1876B4191DDC00910002B4A2 /* 下拉框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉框.png"; sourceTree = "<group>"; };
+		1876B41B1DDC015D0002B4A2 /* I3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I3.png; sourceTree = "<group>"; };
+		1876B41D1DDC0EBE0002B4A2 /* I4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I4.png; sourceTree = "<group>"; };
+		1876B41F1DDC0FA90002B4A2 /* I5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I5.png; sourceTree = "<group>"; };
+		1876B4211DDC10EC0002B4A2 /* 注释颜色工具.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注释颜色工具.png"; sourceTree = "<group>"; };
+		1876B4231DDC289F0002B4A2 /* 注释.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注释.png"; sourceTree = "<group>"; };
+		1876B4251DDC2F620002B4A2 /* I6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I6.png; sourceTree = "<group>"; };
+		1876B4271DDC30230002B4A2 /* 创建新的技术组.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创建新的技术组.png"; sourceTree = "<group>"; };
+		1876B4291DDC303D0002B4A2 /* 切换计数组的可见性.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "切换计数组的可见性.png"; sourceTree = "<group>"; };
+		1876B42B1DDC305C0002B4A2 /* 删除计数组.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除计数组.png"; sourceTree = "<group>"; };
+		1876B42D1DDC34D50002B4A2 /* 色块.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色块.png"; sourceTree = "<group>"; };
+		18A913951DE6C883004FBF82 /* 菜单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菜单.png"; sourceTree = "<group>"; };
+		18A913971DE6C8ED004FBF82 /* 库1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "库1.png"; sourceTree = "<group>"; };
+		18A913981DE6C8ED004FBF82 /* 库11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "库11.png"; sourceTree = "<group>"; };
+		18A9139B1DE6C9CF004FBF82 /* 放大镜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "放大镜.png"; sourceTree = "<group>"; };
+		18A9139D1DE6CE5E004FBF82 /* 库2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "库2.png"; sourceTree = "<group>"; };
+		18A9139F1DE6CE6B004FBF82 /* 库.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "库.png"; sourceTree = "<group>"; };
+		18A913A31DE6E7A4004FBF82 /* 自定义.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自定义.png"; sourceTree = "<group>"; };
+		18A913A91DE6EA66004FBF82 /* 关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭.png"; sourceTree = "<group>"; };
+		18A913AB1DE6EA9B004FBF82 /* 窗口化.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗口化.png"; sourceTree = "<group>"; };
+		18A913AD1DE6EA9F004FBF82 /* 最小化.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最小化.png"; sourceTree = "<group>"; };
+		18A913AF1DE6EE75004FBF82 /* 色板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色板.png"; sourceTree = "<group>"; };
+		18AC7ADD1DE68BA40043ADE3 /* 像素图层过滤器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "像素图层过滤器.png"; sourceTree = "<group>"; };
+		18AC7ADF1DE68BD10043ADE3 /* 调整图层过滤器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "调整图层过滤器.png"; sourceTree = "<group>"; };
+		18AC7AE11DE68C100043ADE3 /* 形状层过滤器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "形状层过滤器.png"; sourceTree = "<group>"; };
+		18AC7AE31DE68C250043ADE3 /* 智能对像过滤器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能对像过滤器.png"; sourceTree = "<group>"; };
+		18AC7AE51DE68C310043ADE3 /* 开关关.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开关关.png"; sourceTree = "<group>"; };
+		18AC7AE71DE69A170043ADE3 /* 图层上锁头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层上锁头.png"; sourceTree = "<group>"; };
+		18AC7AE91DE69A380043ADE3 /* 锁定位置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锁定位置.png"; sourceTree = "<group>"; };
+		18AC7AEB1DE69A4D0043ADE3 /* 锁定图像像素.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "锁定图像像素.png"; sourceTree = "<group>"; };
+		18AC7AED1DE69A6A0043ADE3 /* 防止在画板内外自动嵌套.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防止在画板内外自动嵌套.png"; sourceTree = "<group>"; };
+		18AC7AEF1DE69B4B0043ADE3 /* 框2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "框2.png"; sourceTree = "<group>"; };
+		18AC7AF11DE6B4DD0043ADE3 /* 大组.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大组.png"; sourceTree = "<group>"; };
+		18AC7AF31DE6B4F90043ADE3 /* 创建心的填充或调整图层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创建心的填充或调整图层.png"; sourceTree = "<group>"; };
+		18AC7AF51DE6B5040043ADE3 /* 连接图层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "连接图层.png"; sourceTree = "<group>"; };
+		18AC7AF71DE6B5270043ADE3 /* 蒙板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蒙板.png"; sourceTree = "<group>"; };
+		18AC7AF91DE6B5480043ADE3 /* 图层样式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图层样式.png"; sourceTree = "<group>"; };
+		18AC7AFB1DE6B56D0043ADE3 /* 新图层.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新图层.png"; sourceTree = "<group>"; };
+		18AC7AFD1DE6B5E30043ADE3 /* 删除1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除1.png"; sourceTree = "<group>"; };
+		18AC7AFF1DE6B7E50043ADE3 /* 文字图层过滤器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文字图层过滤器.png"; sourceTree = "<group>"; };
+		18AC7B011DE6BA3D0043ADE3 /* 将路径作为选区载入.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "将路径作为选区载入.png"; sourceTree = "<group>"; };
+		18AC7B031DE6BB9D0043ADE3 /* 使用前景色填充路径.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用前景色填充路径.png"; sourceTree = "<group>"; };
+		18AC7B051DE6BBC10043ADE3 /* 用画笔描边路径.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "用画笔描边路径.png"; sourceTree = "<group>"; };
+		18AC7B071DE6BBF90043ADE3 /* 从选区生成工作路径.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "从选区生成工作路径.png"; sourceTree = "<group>"; };
+		18C78A0B1E1DE310007FE7C4 /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		18C78A0C1E1DE310007FE7C4 /* toolbar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = toolbar.plist; sourceTree = "<group>"; };
+		18D5405C1DD32BAE00D08AF0 /* msyh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyh.ttf; sourceTree = "<group>"; };
+		3C00CB9C1DCC165C00843FB6 /* 矩形-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矩形-1.png"; sourceTree = "<group>"; };
+		3C0C1B911DCB0A2600532376 /* SecTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecTableViewCell.h; sourceTree = "<group>"; };
+		3C0C1B921DCB0A2600532376 /* SecTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecTableViewCell.m; sourceTree = "<group>"; };
+		3C0C1B931DCB0A2600532376 /* SecTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecTableViewCell.xib; sourceTree = "<group>"; };
+		3C20C9F51DD02CDD00A29A02 /* 线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "线.png"; sourceTree = "<group>"; };
+		3C5D06171DC9C06500AA428B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		3C5D06181DC9C06500AA428B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		3C5D06191DC9C06500AA428B /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		3CDD35C71DCB483A00F9AE2A /* UIScrollView+UITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITouch.h"; sourceTree = "<group>"; };
+		3CDD35C81DCB483A00F9AE2A /* UIScrollView+UITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITouch.m"; sourceTree = "<group>"; };
+		3CF644711DC99530003177FC /* Demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF644751DC99530003177FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CF644771DC99530003177FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CF644781DC99530003177FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CF644801DC99530003177FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF644831DC99530003177FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF644851DC99530003177FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF6448A1DC99530003177FC /* Demo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6448E1DC99530003177FC /* Demo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2Tests.m; sourceTree = "<group>"; };
+		3CF644901DC99530003177FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF644951DC99530003177FC /* Demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF644991DC99530003177FC /* Demo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2UITests.m; sourceTree = "<group>"; };
+		3CF6449B1DC99530003177FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF644AC1DC995CD003177FC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3CF644AD1DC995CD003177FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 1; path = MainViewController.m; sourceTree = "<group>"; };
+		3CF644AE1DC995CD003177FC /* Mode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mode.h; sourceTree = "<group>"; };
+		3CF644AF1DC995CD003177FC /* Mode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF6446E1DC99530003177FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF644871DC99530003177FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF644921DC99530003177FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180025A61DD15EE000F14BBF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				180025A71DD15EF500F14BBF /* DMDropDownMenu.h */,
+				180025A81DD15EF500F14BBF /* DMDropDownMenu.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		1814D9081DD950B5000CD0FC /* V画板 */ = {
+			isa = PBXGroup;
+			children = (
+				1814D9251DD9A19A000CD0FC /* V5.png */,
+				1814D9231DD9A017000CD0FC /* V22.png */,
+				1814D91B1DD988B0000CD0FC /* V上点击.png */,
+				1814D9191DD987DE000CD0FC /* 套索工具.png */,
+				1814D9171DD986DE000CD0FC /* 磁性套索工具.png */,
+				1814D9151DD96EBC000CD0FC /* 使用手绘板压力增加钢笔宽度.png */,
+				1814D90B1DD95AF9000CD0FC /* 制作纵版.png */,
+				1814D90D1DD95B00000CD0FC /* 制作横版.png */,
+				1814D90F1DD95B12000CD0FC /* 添加新画板.png */,
+				1814D9091DD95161000CD0FC /* 4@画板工具.png */,
+				1814D9111DD95BBA000CD0FC /* 设置画板行为.png */,
+			);
+			name = "V画板";
+			sourceTree = "<group>";
+		};
+		183042C41DE523E3003C34CF /* 放大镜 */ = {
+			isa = PBXGroup;
+			children = (
+				183042C51DE52472003C34CF /* Z1.png */,
+				183042C61DE52472003C34CF /* Z1小.png */,
+				183042C71DE52472003C34CF /* Z2.png */,
+				183042C81DE52472003C34CF /* Z2大.png */,
+			);
+			name = "放大镜";
+			sourceTree = "<group>";
+		};
+		183204541DE3DB96000D2E42 /* P钢笔工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183204551DE3DBB8000D2E42 /* P1.png */,
+				183204561DE3DBB8000D2E42 /* P2.png */,
+				183204571DE3DBB8000D2E42 /* P3.png */,
+				183204581DE3DBB8000D2E42 /* P4.png */,
+				183204591DE3DBB8000D2E42 /* P5.png */,
+			);
+			name = "P钢笔工具";
+			sourceTree = "<group>";
+		};
+		1832045F1DE3EF79000D2E42 /* T横排文字工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183204601DE3EFFE000D2E42 /* T1.png */,
+				183204611DE3EFFE000D2E42 /* T2.png */,
+				183204621DE3EFFE000D2E42 /* T3.png */,
+				183204631DE3EFFE000D2E42 /* T4.png */,
+				1832046A1DE3F27C000D2E42 /* T5.png */,
+				183204681DE3F04B000D2E42 /* T6.png */,
+				1832046C1DE3F288000D2E42 /* T8.png */,
+				1832046E1DE3F656000D2E42 /* T11.png */,
+				183204701DE3F665000D2E42 /* T21.png */,
+				183204711DE3F665000D2E42 /* T31.png */,
+				183204721DE3F665000D2E42 /* T41.png */,
+				183204761DE3F68B000D2E42 /* T.png */,
+				183204781DE3F6B6000D2E42 /* T10.png */,
+			);
+			name = "T横排文字工具";
+			sourceTree = "<group>";
+		};
+		1832047A1DE4171B000D2E42 /* A路径选择工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183204871DE421FB000D2E42 /* 前移1.png */,
+				183204851DE41F1D000D2E42 /* A66.png */,
+				183204831DE41BA3000D2E42 /* A44.png */,
+				1832047F1DE41A91000D2E42 /* A11.png */,
+				183204801DE41A91000D2E42 /* A22.png */,
+				1832047B1DE41732000D2E42 /* A1.png */,
+				1832047C1DE41732000D2E42 /* A2.png */,
+			);
+			name = "A路径选择工具";
+			sourceTree = "<group>";
+		};
+		183204891DE43811000D2E42 /* U矩形工具 */ = {
+			isa = PBXGroup;
+			children = (
+				1832048A1DE4383E000D2E42 /* U1.png */,
+				1832048B1DE4383E000D2E42 /* U2.png */,
+				1832048C1DE4383E000D2E42 /* U3.png */,
+				1832048D1DE4383E000D2E42 /* U4.png */,
+				1832048E1DE4383E000D2E42 /* U5.png */,
+				1832048F1DE4383E000D2E42 /* U6.png */,
+			);
+			name = "U矩形工具";
+			sourceTree = "<group>";
+		};
+		183204961DE439E9000D2E42 /* H抓手工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183204971DE43A0A000D2E42 /* H1.png */,
+				183204981DE43A0A000D2E42 /* H2R.png */,
+				1832049B1DE44076000D2E42 /* R1.png */,
+			);
+			name = "H抓手工具";
+			sourceTree = "<group>";
+		};
+		1832D5A11DDAA2BF00A05656 /* V快速选择工具 */ = {
+			isa = PBXGroup;
+			children = (
+				18316AA01DF8002700B3BCE5 /* 下拉.png */,
+				1832D5B01DDAD7E300A05656 /* 111.png */,
+				1832D5AA1DDAA80900A05656 /* 笔刷控制.png */,
+				1832D5A41DDAA5D000A05656 /* W.png */,
+				1832D5A51DDAA5D000A05656 /* W1.png */,
+				1832D5A61DDAA5D000A05656 /* W2.png */,
+				1832D5A21DDAA2F600A05656 /* W1(1).png */,
+				1832D5AE1DDAB14300A05656 /* W22.png */,
+			);
+			name = "V快速选择工具";
+			sourceTree = "<group>";
+		};
+		1832D5B21DDADF3E00A05656 /* C裁剪工具 */ = {
+			isa = PBXGroup;
+			children = (
+				1832D5CF1DDB11DC00A05656 /* 为当前切片设置选项.png */,
+				1832D5CB1DDB0C1200A05656 /* 后移一层.png */,
+				1832D5CC1DDB0C1200A05656 /* 前移一层.png */,
+				1832D5C71DDB0BF300A05656 /* 置为底层.png */,
+				1832D5C81DDB0BF300A05656 /* 置为顶层.png */,
+				1832D5C31DDB004500A05656 /* C2.png */,
+				1832D5C11DDAFB5200A05656 /* 复位裁剪框.png */,
+				1832D5BB1DDAF3F800A05656 /* 设置裁剪工具的叠加选项1.png */,
+				1832D5BC1DDAF3F800A05656 /* 设置其他裁切选项.png */,
+				1832D5B91DDAECE800A05656 /* 拉直.png */,
+				1832D5BF1DDAF71700A05656 /* C33.png */,
+				1832D5B71DDAE9A100A05656 /* C1.png */,
+				1832D5B51DDAE48700A05656 /* C4.png */,
+				1832D5B31DDAE2F300A05656 /* C3.png */,
+				1832D5C51DDB0A1000A05656 /* C44.png */,
+			);
+			name = "C裁剪工具";
+			sourceTree = "<group>";
+		};
+		18384F091DDD3BB800F4CEF2 /* J红眼工具 */ = {
+			isa = PBXGroup;
+			children = (
+				18316AA61DF8134500B3BCE5 /* 惊叹号.png */,
+				18316AA41DF80A2C00B3BCE5 /* 旋转十字标.png */,
+				18316AA21DF806F000B3BCE5 /* 小三角.png */,
+				1848B8531DE82EAF0052C86D /* J1.png */,
+				18384F141DDD7C6900F4CEF2 /* J5.png */,
+				18384F121DDD5C2E00F4CEF2 /* J4.png */,
+				18384F101DDD4D1F00F4CEF2 /* J3.png */,
+				18384F0E1DDD43C500F4CEF2 /* 打开以复制时忽略调整图层.png */,
+				18384F0C1DDD3C2A00F4CEF2 /* J2.png */,
+				18384F0A1DDD3BE800F4CEF2 /* 切换仿制源面板.png */,
+			);
+			name = "J红眼工具";
+			sourceTree = "<group>";
+		};
+		18384F1A1DDD8B3E00F4CEF2 /* B画笔工具 */ = {
+			isa = PBXGroup;
+			children = (
+				18384F2F1DDDB8E000F4CEF2 /* 色块2.png */,
+				18384F2D1DDDB8A200F4CEF2 /* 每次描边后清理画笔.png */,
+				18384F2B1DDDB87C00F4CEF2 /* 每次描边后载入画笔.png */,
+				18384F291DDDB5C300F4CEF2 /* 取样1次.png */,
+				18384F251DDDB59200F4CEF2 /* 取样连续.png */,
+				18384F271DDDB5B400F4CEF2 /* 取样背景色板.png */,
+				18384F1D1DDDA29300F4CEF2 /* B1.png */,
+				18384F1E1DDDA29300F4CEF2 /* B2.png */,
+				18384F1F1DDDA29300F4CEF2 /* B3.png */,
+				18384F201DDDA29300F4CEF2 /* B4.png */,
+				18384F1B1DDD8D3D00F4CEF2 /* 切换至画笔面板.png */,
+				18384F161DDD8B0F00F4CEF2 /* 始终对不透明度使用压力.png */,
+				18384F181DDD8B3600F4CEF2 /* 启用喷枪样式的建立效果.png */,
+			);
+			name = "B画笔工具";
+			sourceTree = "<group>";
+		};
+		183BD3F51DE28AC8005EA055 /* G渐变工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183BD4151DE2E4C1005EA055 /* 黑白简便.png */,
+				183BD3EF1DE28AC4005EA055 /* G1.png */,
+				183BD3F01DE28AC4005EA055 /* G2.png */,
+				183BD3F11DE28AC4005EA055 /* G3.png */,
+				183BD3F61DE28B4A005EA055 /* 渐1.png */,
+				183BD3F71DE28B4A005EA055 /* 渐2.png */,
+				183BD3F81DE28B4A005EA055 /* 渐3.png */,
+				183BD3F91DE28B4A005EA055 /* 渐4.png */,
+				183BD3FA1DE28B4A005EA055 /* 渐5.png */,
+				183BD3FB1DE28B4A005EA055 /* 渐变.png */,
+				183BD4021DE28BD8005EA055 /* 1.png */,
+				183BD4041DE29B88005EA055 /* 3.png */,
+			);
+			name = "G渐变工具";
+			sourceTree = "<group>";
+		};
+		183BD4061DE2A6DC005EA055 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				182E41961DF936C3006E86D6 /* 乔巴.jpg */,
+				182E41921DF93255006E86D6 /* 猫.jpg */,
+				184720EF1DF6A79B00689134 /* 框2222.png */,
+				184720EB1DF6A5C600689134 /* 线111.png */,
+				184720E91DF6A46800689134 /* 长条1.png */,
+				184720E71DF68A2500689134 /* XXXXX.png */,
+				185D6F6C1DF16295000DE9EF /* 框1.png */,
+				185D6F681DF15FCB000DE9EF /* 线1.png */,
+				181F7E2B1DF01569007CCE93 /* F1箭头.png */,
+				181F7E291DF012C0007CCE93 /* F1线条.png */,
+				1833ABA51DEE754300904397 /* 颜色图片838383.png */,
+				18A9139F1DE6CE6B004FBF82 /* 库.png */,
+				18A9139D1DE6CE5E004FBF82 /* 库2.png */,
+				18A9139B1DE6C9CF004FBF82 /* 放大镜.png */,
+				18A913971DE6C8ED004FBF82 /* 库1.png */,
+				18A913981DE6C8ED004FBF82 /* 库11.png */,
+				18A913951DE6C883004FBF82 /* 菜单.png */,
+				18AC7B071DE6BBF90043ADE3 /* 从选区生成工作路径.png */,
+				18AC7B051DE6BBC10043ADE3 /* 用画笔描边路径.png */,
+				18AC7B031DE6BB9D0043ADE3 /* 使用前景色填充路径.png */,
+				18AC7B011DE6BA3D0043ADE3 /* 将路径作为选区载入.png */,
+				18AC7AFF1DE6B7E50043ADE3 /* 文字图层过滤器.png */,
+				18AC7AFD1DE6B5E30043ADE3 /* 删除1.png */,
+				18AC7AFB1DE6B56D0043ADE3 /* 新图层.png */,
+				18AC7AF91DE6B5480043ADE3 /* 图层样式.png */,
+				18AC7AF71DE6B5270043ADE3 /* 蒙板.png */,
+				18AC7AF51DE6B5040043ADE3 /* 连接图层.png */,
+				18AC7AF31DE6B4F90043ADE3 /* 创建心的填充或调整图层.png */,
+				18AC7AF11DE6B4DD0043ADE3 /* 大组.png */,
+				18AC7AEF1DE69B4B0043ADE3 /* 框2.png */,
+				18AC7AED1DE69A6A0043ADE3 /* 防止在画板内外自动嵌套.png */,
+				18AC7AEB1DE69A4D0043ADE3 /* 锁定图像像素.png */,
+				18AC7AE91DE69A380043ADE3 /* 锁定位置.png */,
+				18AC7AE71DE69A170043ADE3 /* 图层上锁头.png */,
+				18AC7AE51DE68C310043ADE3 /* 开关关.png */,
+				18AC7AE31DE68C250043ADE3 /* 智能对像过滤器.png */,
+				18AC7AE11DE68C100043ADE3 /* 形状层过滤器.png */,
+				18AC7ADF1DE68BD10043ADE3 /* 调整图层过滤器.png */,
+				18AC7ADD1DE68BA40043ADE3 /* 像素图层过滤器.png */,
+				183728981DE5A17F004F0D31 /* 横线.png */,
+				1837288A1DE5A009004F0D31 /* 3D.png */,
+				1837288B1DE5A009004F0D31 /* 段落.png */,
+				1837288C1DE5A009004F0D31 /* 画笔.png */,
+				1837288D1DE5A009004F0D31 /* 画笔预设.png */,
+				1837288E1DE5A009004F0D31 /* 属性面板.png */,
+				1837288F1DE5A009004F0D31 /* 字符.png */,
+				183728901DE5A009004F0D31 /* Device-Preview.png */,
+				183728881DE5979D004F0D31 /* 色相饱和度.png */,
+				183728861DE59686004F0D31 /* 渐变映射.png */,
+				183728841DE59674004F0D31 /* 可选颜色.png */,
+				183728821DE59655004F0D31 /* 阈值.png */,
+				183728801DE59641004F0D31 /* 色调分离.png */,
+				1837287E1DE5962E004F0D31 /* 反相.png */,
+				1837287C1DE59605004F0D31 /* 颜色查找.png */,
+				1837287A1DE595F0004F0D31 /* 通道混合器.png */,
+				183728781DE595D9004F0D31 /* 照片滤镜.png */,
+				183728761DE595C7004F0D31 /* 黑白.png */,
+				183728741DE595AD004F0D31 /* 色彩平衡.png */,
+				183728721DE59577004F0D31 /* 自然饱和度.png */,
+				183728701DE59557004F0D31 /* 曝光度.png */,
+				1837286C1DE5953E004F0D31 /* 亮度对比度.png */,
+				1837286D1DE5953E004F0D31 /* 曲线.png */,
+				1837286A1DE59534004F0D31 /* 色阶.png */,
+				18A913AF1DE6EE75004FBF82 /* 色板.png */,
+				183728671DE57CCB004F0D31 /* 色板2.png */,
+				183728601DE578F1004F0D31 /* 清除.png */,
+				183728611DE578F1004F0D31 /* 删除.png */,
+				183728621DE578F1004F0D31 /* 新建.png */,
+				1837285E1DE56F25004F0D31 /* 4X样式面板.png */,
+				1837285C1DE566BD004F0D31 /* 更多.png */,
+				183042D31DE539EB003C34CF /* 指针.png */,
+				183042D11DE5394D003C34CF /* 小色块.png */,
+				183042CF1DE5385C003C34CF /* 大颜色块.png */,
+				183042CD1DE53600003C34CF /* 默认颜色.png */,
+				185D97291DD557860090E32E /* cell.png */,
+				186FB11A1DD411F900473783 /* 黑背.jpg */,
+				186FB0EA1DD40B2C00473783 /* 4@V移动.png */,
+				186FB0EC1DD40B4500473783 /* 4@M矩形选框工具.png */,
+				186FB0EE1DD40B7100473783 /* 4@L套索工具.png */,
+				186FB0F01DD40B9700473783 /* 4@W快速选择工具.png */,
+				186FB0F21DD40BB900473783 /* 4@C裁剪工具.png */,
+				186FB0F41DD40BE500473783 /* 4@I吸管工具.png */,
+				186FB0F61DD40C0200473783 /* 4@J红眼工具.png */,
+				186FB0F81DD40C2400473783 /* 4@B画笔工具.png */,
+				186FB0FA1DD40C4300473783 /* 4@S仿制图章.png */,
+				186FB0FC1DD40C6D00473783 /* 4@Y历史记录画笔.png */,
+				186FB0FE1DD40C9B00473783 /* 4@E橡皮擦工具.png */,
+				186FB1001DD40CBB00473783 /* 4@G渐变工具.png */,
+				186FB1021DD40CE400473783 /* 4@模糊工具.png */,
+				186FB1041DD40D0F00473783 /* 4@O减淡工具.png */,
+				186FB1061DD40D4600473783 /* 4@P钢笔工具.png */,
+				186FB1081DD40D6600473783 /* 4@T横排文字工具.png */,
+				186FB10A1DD40D8C00473783 /* 4@A路径选择工具.png */,
+				186FB10C1DD40DAB00473783 /* 4@U矩形工具.png */,
+				186FB10E1DD40DC500473783 /* 4@H-抓手工具.png */,
+				186FB1181DD4116400473783 /* 4@缩放.png */,
+				186FB0E81DD40B0500473783 /* 4@编辑工具栏.png */,
+				186FB1121DD40E9500473783 /* 4@前景色背景色.png */,
+				186FB1101DD40E6B00473783 /* 4@Q-以快速蒙板模式编辑.png */,
+				186FB1161DD40F4E00473783 /* 4@F标准屏幕模式.png */,
+				186FB1141DD40EDC00473783 /* 选中时背景.png */,
+				18D5405C1DD32BAE00D08AF0 /* msyh.ttf */,
+				3C20C9F51DD02CDD00A29A02 /* 线.png */,
+				3C00CB9C1DCC165C00843FB6 /* 矩形-1.png */,
+				18A913A31DE6E7A4004FBF82 /* 自定义.png */,
+				18A913AB1DE6EA9B004FBF82 /* 窗口化.png */,
+				18A913AD1DE6EA9F004FBF82 /* 最小化.png */,
+				18A913A91DE6EA66004FBF82 /* 关闭.png */,
+			);
+			name = "其他";
+			sourceTree = "<group>";
+		};
+		183BD40D1DE2CC55005EA055 /* 涂抹工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183BD4071DE2CC52005EA055 /* 模糊工具1.png */,
+				183BD4081DE2CC52005EA055 /* 锐化工具1.png */,
+				183BD4091DE2CC52005EA055 /* 涂抹工具1.png */,
+			);
+			name = "涂抹工具";
+			sourceTree = "<group>";
+		};
+		183BD40E1DE2E02D005EA055 /* O减淡工具 */ = {
+			isa = PBXGroup;
+			children = (
+				183BD40F1DE2E042005EA055 /* O1.png */,
+				183BD4101DE2E042005EA055 /* O2.png */,
+				183BD4111DE2E042005EA055 /* O3.png */,
+			);
+			name = "O减淡工具";
+			sourceTree = "<group>";
+		};
+		185833E91DDE9F4500C7CFA6 /* S仿制图章工具 */ = {
+			isa = PBXGroup;
+			children = (
+				185833EE1DDED3CE00C7CFA6 /* 选择图案.png */,
+				185833EA1DDE9F5700C7CFA6 /* S1.png */,
+				185833EB1DDE9F5700C7CFA6 /* S2.png */,
+			);
+			name = "S仿制图章工具";
+			sourceTree = "<group>";
+		};
+		185833F01DDEE69B00C7CFA6 /* Y历史记录画笔工具 */ = {
+			isa = PBXGroup;
+			children = (
+				185833F11DDEEA5800C7CFA6 /* Y1.png */,
+				185833F21DDEEA5800C7CFA6 /* Y2.png */,
+			);
+			name = "Y历史记录画笔工具";
+			sourceTree = "<group>";
+		};
+		185833F51DDEF1BA00C7CFA6 /* E橡皮擦工具 */ = {
+			isa = PBXGroup;
+			children = (
+				185833F61DDEF1D000C7CFA6 /* E1.png */,
+				185833F71DDEF1D000C7CFA6 /* E2.png */,
+				185833F81DDEF1D000C7CFA6 /* E3.png */,
+			);
+			name = "E橡皮擦工具";
+			sourceTree = "<group>";
+		};
+		185D972D1DD59F5F0090E32E /* V移动 */ = {
+			isa = PBXGroup;
+			children = (
+				1814D9211DD99C34000CD0FC /* V1.png */,
+				1814D91F1DD99B11000CD0FC /* V4.png */,
+				185D97521DD5AD270090E32E /* 间隔线.png */,
+				185D97501DD5AB8D0090E32E /* 平移3D相机.png */,
+				185D974E1DD5AB6A0090E32E /* 变焦3D相机.png */,
+				185D974C1DD5AB510090E32E /* 滚动3D相机.png */,
+				185D974A1DD5AB2F0090E32E /* 滑动3D相机.png */,
+				185D97481DD5AB1E0090E32E /* 环绕移动3D相机.png */,
+				185D97461DD5A4970090E32E /* 自动对齐图层.png */,
+				185D973A1DD5A1A40090E32E /* 按底分布.png */,
+				185D973B1DD5A1A40090E32E /* 按顶分布.png */,
+				185D973C1DD5A1A40090E32E /* 按右分布.png */,
+				185D973D1DD5A1A40090E32E /* 按左分布.png */,
+				185D973E1DD5A1A40090E32E /* 水平居中对齐.png */,
+				185D973F1DD5A1A40090E32E /* 水平居中分布.png */,
+				185D97321DD59F9D0090E32E /* 垂直居中对齐.png */,
+				185D97331DD59F9D0090E32E /* 垂直居中分布.png */,
+				185D97341DD59F9D0090E32E /* 底对齐.png */,
+				185D97351DD59F9D0090E32E /* 顶对齐.png */,
+				185D972E1DD59F8E0090E32E /* 右对齐.png */,
+				185D972F1DD59F8E0090E32E /* 左对齐.png */,
+				185D972B1DD574890090E32E /* 划线.png */,
+			);
+			name = "V移动";
+			sourceTree = "<group>";
+		};
+		185D97541DD5C7850090E32E /* M矩形选框 */ = {
+			isa = PBXGroup;
+			children = (
+				1814D91D1DD99952000CD0FC /* M1.png */,
+				1814D9051DD94D0F000CD0FC /* 高度和宽度互换.png */,
+				185D97551DD5C8CA0090E32E /* 新选区.png */,
+				185D97571DD5C8E10090E32E /* 添加到选区.png */,
+				185D97591DD5C8FD0090E32E /* 从选区减去.png */,
+				185D975B1DD5C9190090E32E /* 与选区交叉.png */,
+			);
+			name = "M矩形选框";
+			sourceTree = "<group>";
+		};
+		186FB1201DD4140C00473783 /* toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				186FB1211DD418B400473783 /* V画板工具.png */,
+				186FB1221DD418B400473783 /* V移动.png */,
+				186FB1251DD420F300473783 /* M单列选框工具.png */,
+				186FB1261DD420F300473783 /* M单行选框工具.png */,
+				186FB1271DD420F300473783 /* M矩形选框工具.png */,
+				186FB1281DD420F300473783 /* M椭圆选框工具.png */,
+				186FB12D1DD421A300473783 /* L磁性套索工具.png */,
+				186FB12E1DD421A300473783 /* L多边形套索工具.png */,
+				186FB12F1DD421A300473783 /* L套索工具.png */,
+				186FB1331DD4227800473783 /* W快速选择工具.png */,
+				186FB1341DD4227800473783 /* W魔棒工具.png */,
+				186FB1371DD422C800473783 /* C裁剪工具.png */,
+				186FB1381DD422C800473783 /* C切片工具.png */,
+				186FB1391DD422C800473783 /* C切片选择工具.png */,
+				186FB13A1DD422C800473783 /* C透视裁剪工具.png */,
+				186FB13F1DD4239700473783 /* I3D材质吸管工具.png */,
+				186FB1401DD4239700473783 /* I标尺工具.png */,
+				186FB1411DD4239700473783 /* I计数工具.png */,
+				186FB1421DD4239700473783 /* I吸管工具.png */,
+				186FB1431DD4239700473783 /* I颜色取样器工具.png */,
+				186FB1441DD4239700473783 /* I注释工具.png */,
+				186FB14B1DD4256A00473783 /* J红眼工具.png */,
+				186FB14C1DD4256A00473783 /* J内容感知移动工具.png */,
+				186FB14D1DD4256A00473783 /* J污点修复画笔工具.png */,
+				186FB14E1DD4256A00473783 /* J修补工具.png */,
+				186FB14F1DD4256A00473783 /* J修复画笔工具.png */,
+				186FB1551DD4268600473783 /* B-混合器画笔工具.png */,
+				186FB1561DD4268600473783 /* B画笔工具.png */,
+				186FB1571DD4268600473783 /* B铅笔工具.png */,
+				186FB1581DD4268600473783 /* B颜色替换工具.png */,
+				186FB15D1DD4270100473783 /* S仿制图章.png */,
+				186FB15E1DD4270100473783 /* S图案图章.png */,
+				186FB1611DD4277200473783 /* Y历史记录画笔.png */,
+				186FB1621DD4277200473783 /* Y历史记录艺术画笔.png */,
+				186FB1651DD4280900473783 /* E背景橡皮擦工具.png */,
+				186FB1661DD4280900473783 /* E魔术橡皮擦.png */,
+				186FB1671DD4280900473783 /* E橡皮擦工具.png */,
+				186FB16B1DD4411800473783 /* G3D材质拖放工具.png */,
+				186FB16C1DD4411800473783 /* G渐变工具.png */,
+				186FB16D1DD4411800473783 /* G油漆桶工具.png */,
+				186FB1711DD441C900473783 /* 模糊工具.png */,
+				186FB1721DD441C900473783 /* 锐化工具.png */,
+				186FB1731DD441C900473783 /* 涂抹工具.png */,
+				186FB1771DD4420900473783 /* O海面工具.png */,
+				186FB1781DD4420900473783 /* O加深工具.png */,
+				186FB1791DD4420900473783 /* O减淡工具.png */,
+				186FB17D1DD4428800473783 /* P钢笔工具.png */,
+				186FB17E1DD4428800473783 /* P删除锚点工具.png */,
+				186FB17F1DD4428800473783 /* P添加锚点工具.png */,
+				186FB1801DD4428800473783 /* P转换点工具.png */,
+				186FB1811DD4428800473783 /* P自由钢笔工具.png */,
+				186FB1871DD4432700473783 /* P文字蒙板工具.png */,
+				186FB1881DD4432700473783 /* P直排文字工具.png */,
+				186FB1891DD4432700473783 /* P直排文字蒙板工具.png */,
+				186FB18F1DD4438800473783 /* T横排文字工具.png */,
+				186FB1911DD4441D00473783 /* A路径选择工具.png */,
+				186FB1921DD4441D00473783 /* A直接选择工具.png */,
+				186FB1951DD4448F00473783 /* U多边形工具.png */,
+				186FB1961DD4448F00473783 /* U矩形工具.png */,
+				186FB1971DD4448F00473783 /* U椭圆工具.png */,
+				186FB1981DD4448F00473783 /* U圆角矩形工具.png */,
+				186FB1991DD4448F00473783 /* U直线工具.png */,
+				186FB19A1DD4448F00473783 /* U自定形状工具.png */,
+				186FB1A11DD4454100473783 /* H-抓手工具.png */,
+				186FB1A21DD4454100473783 /* R旋转视图工具.png */,
+				186FB1A51DD446A000473783 /* F-带有菜单栏的全屏模式.png */,
+				186FB1A61DD446A000473783 /* F-全屏模式.png */,
+				186FB1A71DD446A000473783 /* F标准屏幕模式.png */,
+			);
+			name = toolbar;
+			sourceTree = "<group>";
+		};
+		1876B4141DDBF00E0002B4A2 /* I吸管工具 */ = {
+			isa = PBXGroup;
+			children = (
+				1876B42D1DDC34D50002B4A2 /* 色块.png */,
+				1876B4191DDC00910002B4A2 /* 下拉框.png */,
+				1876B4291DDC303D0002B4A2 /* 切换计数组的可见性.png */,
+				1876B4271DDC30230002B4A2 /* 创建新的技术组.png */,
+				1876B42B1DDC305C0002B4A2 /* 删除计数组.png */,
+				1876B4151DDBF01D0002B4A2 /* I1.png */,
+				1876B4171DDBFCEA0002B4A2 /* I2.png */,
+				1876B41B1DDC015D0002B4A2 /* I3.png */,
+				1876B41D1DDC0EBE0002B4A2 /* I4.png */,
+				1876B41F1DDC0FA90002B4A2 /* I5.png */,
+				1876B4211DDC10EC0002B4A2 /* 注释颜色工具.png */,
+				1876B4231DDC289F0002B4A2 /* 注释.png */,
+				1876B4251DDC2F620002B4A2 /* I6.png */,
+			);
+			name = "I吸管工具";
+			sourceTree = "<group>";
+		};
+		18E380121DD07936002E4CA9 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				183042C41DE523E3003C34CF /* 放大镜 */,
+				183204961DE439E9000D2E42 /* H抓手工具 */,
+				183204891DE43811000D2E42 /* U矩形工具 */,
+				1832047A1DE4171B000D2E42 /* A路径选择工具 */,
+				1832045F1DE3EF79000D2E42 /* T横排文字工具 */,
+				183204541DE3DB96000D2E42 /* P钢笔工具 */,
+				183BD40E1DE2E02D005EA055 /* O减淡工具 */,
+				183BD40D1DE2CC55005EA055 /* 涂抹工具 */,
+				183BD3F51DE28AC8005EA055 /* G渐变工具 */,
+				185833F51DDEF1BA00C7CFA6 /* E橡皮擦工具 */,
+				185833F01DDEE69B00C7CFA6 /* Y历史记录画笔工具 */,
+				185833E91DDE9F4500C7CFA6 /* S仿制图章工具 */,
+				18384F1A1DDD8B3E00F4CEF2 /* B画笔工具 */,
+				18384F091DDD3BB800F4CEF2 /* J红眼工具 */,
+				1876B4141DDBF00E0002B4A2 /* I吸管工具 */,
+				1832D5B21DDADF3E00A05656 /* C裁剪工具 */,
+				1832D5A11DDAA2BF00A05656 /* V快速选择工具 */,
+				1814D9081DD950B5000CD0FC /* V画板 */,
+				185D97541DD5C7850090E32E /* M矩形选框 */,
+				185D972D1DD59F5F0090E32E /* V移动 */,
+				183BD4061DE2A6DC005EA055 /* 其他 */,
+				186FB1201DD4140C00473783 /* toolbar */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		3CF644681DC9952F003177FC = {
+			isa = PBXGroup;
+			children = (
+				3CF644731DC99530003177FC /* Demo2 */,
+				3CF6448D1DC99530003177FC /* Demo2Tests */,
+				3CF644981DC99530003177FC /* Demo2UITests */,
+				3CF644721DC99530003177FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF644721DC99530003177FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF644711DC99530003177FC /* Demo2.app */,
+				3CF6448A1DC99530003177FC /* Demo2Tests.xctest */,
+				3CF644951DC99530003177FC /* Demo2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF644731DC99530003177FC /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				180025A61DD15EE000F14BBF /* Custom */,
+				18E380121DD07936002E4CA9 /* image */,
+				18C78A0B1E1DE310007FE7C4 /* List.plist */,
+				18C78A0C1E1DE310007FE7C4 /* toolbar.plist */,
+				3CF644771DC99530003177FC /* AppDelegate.h */,
+				3CF644781DC99530003177FC /* AppDelegate.m */,
+				3CF644AC1DC995CD003177FC /* MainViewController.h */,
+				3CF644AD1DC995CD003177FC /* MainViewController.m */,
+				3C0C1B911DCB0A2600532376 /* SecTableViewCell.h */,
+				3C0C1B921DCB0A2600532376 /* SecTableViewCell.m */,
+				3C0C1B931DCB0A2600532376 /* SecTableViewCell.xib */,
+				3CDD35C71DCB483A00F9AE2A /* UIScrollView+UITouch.h */,
+				3CDD35C81DCB483A00F9AE2A /* UIScrollView+UITouch.m */,
+				3C5D06171DC9C06500AA428B /* TableViewCell.h */,
+				3C5D06181DC9C06500AA428B /* TableViewCell.m */,
+				3C5D06191DC9C06500AA428B /* TableViewCell.xib */,
+				186FB1B31DD47E7F00473783 /* ToolBarTableViewCell.h */,
+				186FB1B41DD47E7F00473783 /* ToolBarTableViewCell.m */,
+				186FB1B51DD47E7F00473783 /* ToolBarTableViewCell.xib */,
+				3CF644AE1DC995CD003177FC /* Mode.h */,
+				3CF644AF1DC995CD003177FC /* Mode.m */,
+				186FB1AB1DD44B7E00473783 /* ToolModel.h */,
+				186FB1AC1DD44B7E00473783 /* ToolModel.m */,
+				3CF644801DC99530003177FC /* Assets.xcassets */,
+				3CF644821DC99530003177FC /* LaunchScreen.storyboard */,
+				3CF644851DC99530003177FC /* Info.plist */,
+				3CF644741DC99530003177FC /* Supporting Files */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		3CF644741DC99530003177FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF644751DC99530003177FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CF6448D1DC99530003177FC /* Demo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6448E1DC99530003177FC /* Demo2Tests.m */,
+				3CF644901DC99530003177FC /* Info.plist */,
+			);
+			path = Demo2Tests;
+			sourceTree = "<group>";
+		};
+		3CF644981DC99530003177FC /* Demo2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF644991DC99530003177FC /* Demo2UITests.m */,
+				3CF6449B1DC99530003177FC /* Info.plist */,
+			);
+			path = Demo2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF644701DC99530003177FC /* Demo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF6449E1DC99530003177FC /* Build configuration list for PBXNativeTarget "Demo2" */;
+			buildPhases = (
+				3CF6446D1DC99530003177FC /* Sources */,
+				3CF6446E1DC99530003177FC /* Frameworks */,
+				3CF6446F1DC99530003177FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo2;
+			productName = Demo2;
+			productReference = 3CF644711DC99530003177FC /* Demo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF644891DC99530003177FC /* Demo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF644A11DC99530003177FC /* Build configuration list for PBXNativeTarget "Demo2Tests" */;
+			buildPhases = (
+				3CF644861DC99530003177FC /* Sources */,
+				3CF644871DC99530003177FC /* Frameworks */,
+				3CF644881DC99530003177FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF6448C1DC99530003177FC /* PBXTargetDependency */,
+			);
+			name = Demo2Tests;
+			productName = Demo2Tests;
+			productReference = 3CF6448A1DC99530003177FC /* Demo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF644941DC99530003177FC /* Demo2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF644A41DC99530003177FC /* Build configuration list for PBXNativeTarget "Demo2UITests" */;
+			buildPhases = (
+				3CF644911DC99530003177FC /* Sources */,
+				3CF644921DC99530003177FC /* Frameworks */,
+				3CF644931DC99530003177FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF644971DC99530003177FC /* PBXTargetDependency */,
+			);
+			name = Demo2UITests;
+			productName = Demo2UITests;
+			productReference = 3CF644951DC99530003177FC /* Demo2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF644691DC9952F003177FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Iven;
+				TargetAttributes = {
+					3CF644701DC99530003177FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P8U4MCL4Z3;
+						ProvisioningStyle = Automatic;
+					};
+					3CF644891DC99530003177FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P8U4MCL4Z3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CF644701DC99530003177FC;
+					};
+					3CF644941DC99530003177FC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = P8U4MCL4Z3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CF644701DC99530003177FC;
+					};
+				};
+			};
+			buildConfigurationList = 3CF6446C1DC9952F003177FC /* Build configuration list for PBXProject "Demo2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF644681DC9952F003177FC;
+			productRefGroup = 3CF644721DC99530003177FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF644701DC99530003177FC /* Demo2 */,
+				3CF644891DC99530003177FC /* Demo2Tests */,
+				3CF644941DC99530003177FC /* Demo2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF6446F1DC99530003177FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A913991DE6C8ED004FBF82 /* 库1.png in Resources */,
+				183204641DE3EFFE000D2E42 /* T1.png in Resources */,
+				1814D9221DD99C34000CD0FC /* V1.png in Resources */,
+				185D97561DD5C8CA0090E32E /* 新选区.png in Resources */,
+				186FB1501DD4256A00473783 /* J红眼工具.png in Resources */,
+				1837287B1DE595F0004F0D31 /* 通道混合器.png in Resources */,
+				18A913A01DE6CE6B004FBF82 /* 库.png in Resources */,
+				1832046D1DE3F288000D2E42 /* T8.png in Resources */,
+				186FB1151DD40EDC00473783 /* 选中时背景.png in Resources */,
+				183728811DE59641004F0D31 /* 色调分离.png in Resources */,
+				183204751DE3F665000D2E42 /* T41.png in Resources */,
+				186FB19B1DD4448F00473783 /* U多边形工具.png in Resources */,
+				1832D5A31DDAA2F600A05656 /* W1(1).png in Resources */,
+				185D97391DD59F9D0090E32E /* 顶对齐.png in Resources */,
+				183042CC1DE52472003C34CF /* Z2大.png in Resources */,
+				185D97451DD5A1A40090E32E /* 水平居中分布.png in Resources */,
+				186FB1471DD4239700473783 /* I计数工具.png in Resources */,
+				183204931DE4383E000D2E42 /* U4.png in Resources */,
+				1837287D1DE59605004F0D31 /* 颜色查找.png in Resources */,
+				18316AA31DF806F000B3BCE5 /* 小三角.png in Resources */,
+				183204691DE3F04B000D2E42 /* T6.png in Resources */,
+				185833ED1DDE9F5700C7CFA6 /* S2.png in Resources */,
+				18384F1C1DDD8D3D00F4CEF2 /* 切换至画笔面板.png in Resources */,
+				186FB17A1DD4420900473783 /* O海面工具.png in Resources */,
+				1832D5AF1DDAB14300A05656 /* W22.png in Resources */,
+				183042CE1DE53600003C34CF /* 默认颜色.png in Resources */,
+				186FB1901DD4438800473783 /* T横排文字工具.png in Resources */,
+				1832D5BD1DDAF3F800A05656 /* 设置裁剪工具的叠加选项1.png in Resources */,
+				1832D5CD1DDB0C1200A05656 /* 后移一层.png in Resources */,
+				3C5D061B1DC9C06500AA428B /* TableViewCell.xib in Resources */,
+				1876B4181DDBFCEA0002B4A2 /* I2.png in Resources */,
+				185D974F1DD5AB6A0090E32E /* 变焦3D相机.png in Resources */,
+				186FB1531DD4256A00473783 /* J修补工具.png in Resources */,
+				186FB1291DD420F300473783 /* M单列选框工具.png in Resources */,
+				186FB1A31DD4454100473783 /* H-抓手工具.png in Resources */,
+				186FB1521DD4256A00473783 /* J污点修复画笔工具.png in Resources */,
+				186FB1511DD4256A00473783 /* J内容感知移动工具.png in Resources */,
+				186FB1701DD4411800473783 /* G油漆桶工具.png in Resources */,
+				185D975C1DD5C9190090E32E /* 与选区交叉.png in Resources */,
+				185D97581DD5C8E10090E32E /* 添加到选区.png in Resources */,
+				183204941DE4383E000D2E42 /* U5.png in Resources */,
+				1876B42A1DDC303D0002B4A2 /* 切换计数组的可见性.png in Resources */,
+				185D97361DD59F9D0090E32E /* 垂直居中对齐.png in Resources */,
+				183204771DE3F68B000D2E42 /* T.png in Resources */,
+				183728991DE5A17F004F0D31 /* 横线.png in Resources */,
+				186FB18C1DD4432700473783 /* P直排文字工具.png in Resources */,
+				183728911DE5A009004F0D31 /* 3D.png in Resources */,
+				1832049C1DE44076000D2E42 /* R1.png in Resources */,
+				186FB1241DD418B400473783 /* V移动.png in Resources */,
+				183728771DE595C7004F0D31 /* 黑白.png in Resources */,
+				1832D5C01DDAF71700A05656 /* C33.png in Resources */,
+				186FB1091DD40D6600473783 /* 4@T横排文字工具.png in Resources */,
+				183BD40A1DE2CC52005EA055 /* 模糊工具1.png in Resources */,
+				186FB1601DD4270100473783 /* S图案图章.png in Resources */,
+				186FB1941DD4441D00473783 /* A直接选择工具.png in Resources */,
+				186FB1751DD441C900473783 /* 锐化工具.png in Resources */,
+				18AC7AF81DE6B5270043ADE3 /* 蒙板.png in Resources */,
+				186FB1071DD40D4600473783 /* 4@P钢笔工具.png in Resources */,
+				185D97471DD5A4970090E32E /* 自动对齐图层.png in Resources */,
+				186FB1821DD4428800473783 /* P钢笔工具.png in Resources */,
+				186FB0EB1DD40B2C00473783 /* 4@V移动.png in Resources */,
+				1814D90E1DD95B00000CD0FC /* 制作横版.png in Resources */,
+				1876B4221DDC10EC0002B4A2 /* 注释颜色工具.png in Resources */,
+				183728731DE59577004F0D31 /* 自然饱和度.png in Resources */,
+				185D97381DD59F9D0090E32E /* 底对齐.png in Resources */,
+				185D97371DD59F9D0090E32E /* 垂直居中分布.png in Resources */,
+				183204791DE3F6B6000D2E42 /* T10.png in Resources */,
+				186FB16A1DD4280900473783 /* E橡皮擦工具.png in Resources */,
+				1832D5C21DDAFB5200A05656 /* 复位裁剪框.png in Resources */,
+				1837285D1DE566BD004F0D31 /* 更多.png in Resources */,
+				186FB15F1DD4270100473783 /* S仿制图章.png in Resources */,
+				183728871DE59686004F0D31 /* 渐变映射.png in Resources */,
+				186FB17B1DD4420900473783 /* O加深工具.png in Resources */,
+				183204741DE3F665000D2E42 /* T31.png in Resources */,
+				183728851DE59674004F0D31 /* 可选颜色.png in Resources */,
+				1814D9101DD95B12000CD0FC /* 添加新画板.png in Resources */,
+				186FB0F11DD40B9700473783 /* 4@W快速选择工具.png in Resources */,
+				18384F211DDDA29300F4CEF2 /* B1.png in Resources */,
+				183204901DE4383E000D2E42 /* U1.png in Resources */,
+				183728711DE59557004F0D31 /* 曝光度.png in Resources */,
+				18A913B01DE6EE75004FBF82 /* 色板.png in Resources */,
+				183204651DE3EFFE000D2E42 /* T2.png in Resources */,
+				183BD4141DE2E042005EA055 /* O3.png in Resources */,
+				186FB13B1DD422C800473783 /* C裁剪工具.png in Resources */,
+				183204921DE4383E000D2E42 /* U3.png in Resources */,
+				183BD4161DE2E4C1005EA055 /* 黑白简便.png in Resources */,
+				18AC7AE61DE68C310043ADE3 /* 开关关.png in Resources */,
+				183728751DE595AD004F0D31 /* 色彩平衡.png in Resources */,
+				186FB10B1DD40D8C00473783 /* 4@A路径选择工具.png in Resources */,
+				186FB1491DD4239700473783 /* I颜色取样器工具.png in Resources */,
+				186FB1A91DD446A000473783 /* F-全屏模式.png in Resources */,
+				185D97421DD5A1A40090E32E /* 按右分布.png in Resources */,
+				1876B41C1DDC015D0002B4A2 /* I3.png in Resources */,
+				1837286B1DE59534004F0D31 /* 色阶.png in Resources */,
+				18AC7AFC1DE6B56D0043ADE3 /* 新图层.png in Resources */,
+				186FB12B1DD420F300473783 /* M矩形选框工具.png in Resources */,
+				186FB1A81DD446A000473783 /* F-带有菜单栏的全屏模式.png in Resources */,
+				1814D9181DD986DE000CD0FC /* 磁性套索工具.png in Resources */,
+				18384F131DDD5C2E00F4CEF2 /* J4.png in Resources */,
+				186FB1171DD40F4E00473783 /* 4@F标准屏幕模式.png in Resources */,
+				183204861DE41F1D000D2E42 /* A66.png in Resources */,
+				183204811DE41A91000D2E42 /* A11.png in Resources */,
+				186FB19F1DD4448F00473783 /* U直线工具.png in Resources */,
+				18C78A0E1E1DE310007FE7C4 /* toolbar.plist in Resources */,
+				1832D5A71DDAA5D000A05656 /* W.png in Resources */,
+				1814D9061DD94D0F000CD0FC /* 高度和宽度互换.png in Resources */,
+				186FB0FB1DD40C4300473783 /* 4@S仿制图章.png in Resources */,
+				186FB1831DD4428800473783 /* P删除锚点工具.png in Resources */,
+				186FB0EF1DD40B7100473783 /* 4@L套索工具.png in Resources */,
+				181F7E2A1DF012C0007CCE93 /* F1线条.png in Resources */,
+				186FB1631DD4277200473783 /* Y历史记录画笔.png in Resources */,
+				18AC7B001DE6B7E50043ADE3 /* 文字图层过滤器.png in Resources */,
+				183728961DE5A009004F0D31 /* 字符.png in Resources */,
+				186FB1851DD4428800473783 /* P转换点工具.png in Resources */,
+				186FB1A01DD4448F00473783 /* U自定形状工具.png in Resources */,
+				185D97441DD5A1A40090E32E /* 水平居中对齐.png in Resources */,
+				186FB1681DD4280900473783 /* E背景橡皮擦工具.png in Resources */,
+				1832D5C41DDB004500A05656 /* C2.png in Resources */,
+				183728641DE578F1004F0D31 /* 删除.png in Resources */,
+				183204911DE4383E000D2E42 /* U2.png in Resources */,
+				183BD3FF1DE28B4A005EA055 /* 渐4.png in Resources */,
+				18AC7AFE1DE6B5E30043ADE3 /* 删除1.png in Resources */,
+				183BD3FC1DE28B4A005EA055 /* 渐1.png in Resources */,
+				18384F301DDDB8E000F4CEF2 /* 色块2.png in Resources */,
+				18384F221DDDA29300F4CEF2 /* B2.png in Resources */,
+				1814D90C1DD95AF9000CD0FC /* 制作纵版.png in Resources */,
+				1832D5A91DDAA5D000A05656 /* W2.png in Resources */,
+				1832D5D01DDB11DC00A05656 /* 为当前切片设置选项.png in Resources */,
+				184720E81DF68A2500689134 /* XXXXX.png in Resources */,
+				185D974B1DD5AB2F0090E32E /* 滑动3D相机.png in Resources */,
+				18AC7AF41DE6B4F90043ADE3 /* 创建心的填充或调整图层.png in Resources */,
+				183728791DE595D9004F0D31 /* 照片滤镜.png in Resources */,
+				18384F191DDD8B3600F4CEF2 /* 启用喷枪样式的建立效果.png in Resources */,
+				183728691DE57CCB004F0D31 /* 色板2.png in Resources */,
+				3C0C1B951DCB0A2600532376 /* SecTableViewCell.xib in Resources */,
+				182E41971DF936C3006E86D6 /* 乔巴.jpg in Resources */,
+				18384F0B1DDD3BE800F4CEF2 /* 切换仿制源面板.png in Resources */,
+				18AC7AFA1DE6B5480043ADE3 /* 图层样式.png in Resources */,
+				186FB1301DD421A300473783 /* L磁性套索工具.png in Resources */,
+				1814D90A1DD95161000CD0FC /* 4@画板工具.png in Resources */,
+				183042CA1DE52472003C34CF /* Z1小.png in Resources */,
+				1837285F1DE56F25004F0D31 /* 4X样式面板.png in Resources */,
+				186FB0F31DD40BB900473783 /* 4@C裁剪工具.png in Resources */,
+				18AC7AE81DE69A170043ADE3 /* 图层上锁头.png in Resources */,
+				183204951DE4383E000D2E42 /* U6.png in Resources */,
+				1832D5C91DDB0BF300A05656 /* 置为底层.png in Resources */,
+				3C00CB9D1DCC165C00843FB6 /* 矩形-1.png in Resources */,
+				1832045B1DE3DBB8000D2E42 /* P2.png in Resources */,
+				184720EA1DF6A46800689134 /* 长条1.png in Resources */,
+				186FB10D1DD40DAB00473783 /* 4@U矩形工具.png in Resources */,
+				186FB0F51DD40BE500473783 /* 4@I吸管工具.png in Resources */,
+				186FB13C1DD422C800473783 /* C切片工具.png in Resources */,
+				18A913AE1DE6EA9F004FBF82 /* 最小化.png in Resources */,
+				18384F241DDDA29300F4CEF2 /* B4.png in Resources */,
+				1832047E1DE41732000D2E42 /* A2.png in Resources */,
+				183BD3F31DE28AC4005EA055 /* G2.png in Resources */,
+				186FB1031DD40CE400473783 /* 4@模糊工具.png in Resources */,
+				186FB12C1DD420F300473783 /* M椭圆选框工具.png in Resources */,
+				1837286F1DE5953E004F0D31 /* 曲线.png in Resources */,
+				186FB15B1DD4268600473783 /* B铅笔工具.png in Resources */,
+				18AC7AEC1DE69A4D0043ADE3 /* 锁定图像像素.png in Resources */,
+				18316AA71DF8134500B3BCE5 /* 惊叹号.png in Resources */,
+				186FB1741DD441C900473783 /* 模糊工具.png in Resources */,
+				183042C91DE52472003C34CF /* Z1.png in Resources */,
+				1832D5BE1DDAF3F800A05656 /* 设置其他裁切选项.png in Resources */,
+				186FB13D1DD422C800473783 /* C切片选择工具.png in Resources */,
+				1837286E1DE5953E004F0D31 /* 亮度对比度.png in Resources */,
+				185833F41DDEEA5800C7CFA6 /* Y2.png in Resources */,
+				185D97531DD5AD270090E32E /* 间隔线.png in Resources */,
+				185D975A1DD5C8FD0090E32E /* 从选区减去.png in Resources */,
+				183BD3FD1DE28B4A005EA055 /* 渐2.png in Resources */,
+				186FB1481DD4239700473783 /* I吸管工具.png in Resources */,
+				186FB1051DD40D0F00473783 /* 4@O减淡工具.png in Resources */,
+				183204991DE43A0A000D2E42 /* H1.png in Resources */,
+				18AC7AF01DE69B4B0043ADE3 /* 框2.png in Resources */,
+				18384F171DDD8B0F00F4CEF2 /* 始终对不透明度使用压力.png in Resources */,
+				183042CB1DE52472003C34CF /* Z2.png in Resources */,
+				18AC7AEA1DE69A380043ADE3 /* 锁定位置.png in Resources */,
+				1832046B1DE3F27C000D2E42 /* T5.png in Resources */,
+				184720EC1DF6A5C600689134 /* 线111.png in Resources */,
+				186FB12A1DD420F300473783 /* M单行选框工具.png in Resources */,
+				18A913AC1DE6EA9B004FBF82 /* 窗口化.png in Resources */,
+				186FB0E91DD40B0500473783 /* 4@编辑工具栏.png in Resources */,
+				185D974D1DD5AB510090E32E /* 滚动3D相机.png in Resources */,
+				186FB1A41DD4454100473783 /* R旋转视图工具.png in Resources */,
+				183BD4121DE2E042005EA055 /* O1.png in Resources */,
+				185833F31DDEEA5800C7CFA6 /* Y1.png in Resources */,
+				183BD40B1DE2CC52005EA055 /* 锐化工具1.png in Resources */,
+				186FB16F1DD4411800473783 /* G渐变工具.png in Resources */,
+				18384F261DDDB59200F4CEF2 /* 取样连续.png in Resources */,
+				183728941DE5A009004F0D31 /* 画笔预设.png in Resources */,
+				18A9139C1DE6C9CF004FBF82 /* 放大镜.png in Resources */,
+				18AC7B081DE6BBF90043ADE3 /* 从选区生成工作路径.png in Resources */,
+				183728931DE5A009004F0D31 /* 画笔.png in Resources */,
+				3C20C9F61DD02CDD00A29A02 /* 线.png in Resources */,
+				18384F0F1DDD43C500F4CEF2 /* 打开以复制时忽略调整图层.png in Resources */,
+				1876B4261DDC2F620002B4A2 /* I6.png in Resources */,
+				186FB0ED1DD40B4500473783 /* 4@M矩形选框工具.png in Resources */,
+				18316AA51DF80A2C00B3BCE5 /* 旋转十字标.png in Resources */,
+				183204731DE3F665000D2E42 /* T21.png in Resources */,
+				3CF644841DC99530003177FC /* LaunchScreen.storyboard in Resources */,
+				183BD3F41DE28AC4005EA055 /* G3.png in Resources */,
+				183728951DE5A009004F0D31 /* 属性面板.png in Resources */,
+				185D97491DD5AB1E0090E32E /* 环绕移动3D相机.png in Resources */,
+				186FB1591DD4268600473783 /* B-混合器画笔工具.png in Resources */,
+				1832D5BA1DDAECE800A05656 /* 拉直.png in Resources */,
+				1876B41E1DDC0EBE0002B4A2 /* I4.png in Resources */,
+				1814D91A1DD987DE000CD0FC /* 套索工具.png in Resources */,
+				18384F111DDD4D1F00F4CEF2 /* J3.png in Resources */,
+				181F7E2C1DF01569007CCE93 /* F1箭头.png in Resources */,
+				1876B41A1DDC00910002B4A2 /* 下拉框.png in Resources */,
+				186FB1351DD4227800473783 /* W快速选择工具.png in Resources */,
+				185D97401DD5A1A40090E32E /* 按底分布.png in Resources */,
+				186FB1931DD4441D00473783 /* A路径选择工具.png in Resources */,
+				186FB1451DD4239700473783 /* I3D材质吸管工具.png in Resources */,
+				186FB1111DD40E6B00473783 /* 4@Q-以快速蒙板模式编辑.png in Resources */,
+				1876B4161DDBF01D0002B4A2 /* I1.png in Resources */,
+				18384F2E1DDDB8A200F4CEF2 /* 每次描边后清理画笔.png in Resources */,
+				186FB18B1DD4432700473783 /* P文字蒙板工具.png in Resources */,
+				183728891DE5979D004F0D31 /* 色相饱和度.png in Resources */,
+				185D97301DD59F8E0090E32E /* 右对齐.png in Resources */,
+				183204881DE421FB000D2E42 /* 前移1.png in Resources */,
+				185D97411DD5A1A40090E32E /* 按顶分布.png in Resources */,
+				182E41931DF93255006E86D6 /* 猫.jpg in Resources */,
+				186FB14A1DD4239700473783 /* I注释工具.png in Resources */,
+				1837287F1DE5962E004F0D31 /* 反相.png in Resources */,
+				18384F231DDDA29300F4CEF2 /* B3.png in Resources */,
+				186FB1AA1DD446A000473783 /* F标准屏幕模式.png in Resources */,
+				1832045C1DE3DBB8000D2E42 /* P3.png in Resources */,
+				183204671DE3EFFE000D2E42 /* T4.png in Resources */,
+				183BD4001DE28B4A005EA055 /* 渐5.png in Resources */,
+				185D97511DD5AB8D0090E32E /* 平移3D相机.png in Resources */,
+				186FB1191DD4116400473783 /* 4@缩放.png in Resources */,
+				1832D5A81DDAA5D000A05656 /* W1.png in Resources */,
+				185833F91DDEF1D000C7CFA6 /* E1.png in Resources */,
+				1832045D1DE3DBB8000D2E42 /* P4.png in Resources */,
+				183BD3FE1DE28B4A005EA055 /* 渐3.png in Resources */,
+				1814D9261DD9A19A000CD0FC /* V5.png in Resources */,
+				18AC7AF61DE6B5040043ADE3 /* 连接图层.png in Resources */,
+				186FB15C1DD4268600473783 /* B颜色替换工具.png in Resources */,
+				1832049A1DE43A0A000D2E42 /* H2R.png in Resources */,
+				183042D41DE539EB003C34CF /* 指针.png in Resources */,
+				1832D5C61DDB0A1000A05656 /* C44.png in Resources */,
+				18AC7AE21DE68C100043ADE3 /* 形状层过滤器.png in Resources */,
+				186FB1691DD4280900473783 /* E魔术橡皮擦.png in Resources */,
+				1832D5B11DDAD7E300A05656 /* 111.png in Resources */,
+				18AC7B041DE6BB9D0043ADE3 /* 使用前景色填充路径.png in Resources */,
+				185D6F6D1DF16295000DE9EF /* 框1.png in Resources */,
+				1814D91E1DD99952000CD0FC /* M1.png in Resources */,
+				18384F151DDD7C6900F4CEF2 /* J5.png in Resources */,
+				186FB1231DD418B400473783 /* V画板工具.png in Resources */,
+				1814D9121DD95BBA000CD0FC /* 设置画板行为.png in Resources */,
+				186FB1541DD4256A00473783 /* J修复画笔工具.png in Resources */,
+				183728971DE5A009004F0D31 /* Device-Preview.png in Resources */,
+				186FB1461DD4239700473783 /* I标尺工具.png in Resources */,
+				183BD40C1DE2CC52005EA055 /* 涂抹工具1.png in Resources */,
+				186FB1861DD4428800473783 /* P自由钢笔工具.png in Resources */,
+				186FB1B71DD47E7F00473783 /* ToolBarTableViewCell.xib in Resources */,
+				184720F01DF6A79B00689134 /* 框2222.png in Resources */,
+				185D972C1DD574890090E32E /* 划线.png in Resources */,
+				18A9139A1DE6C8ED004FBF82 /* 库11.png in Resources */,
+				1876B4281DDC30230002B4A2 /* 创建新的技术组.png in Resources */,
+				186FB15A1DD4268600473783 /* B画笔工具.png in Resources */,
+				183728631DE578F1004F0D31 /* 清除.png in Resources */,
+				185D6F691DF15FCB000DE9EF /* 线1.png in Resources */,
+				18C78A0D1E1DE310007FE7C4 /* List.plist in Resources */,
+				183BD3F21DE28AC4005EA055 /* G1.png in Resources */,
+				186FB1761DD441C900473783 /* 涂抹工具.png in Resources */,
+				183728921DE5A009004F0D31 /* 段落.png in Resources */,
+				183204821DE41A91000D2E42 /* A22.png in Resources */,
+				185833EF1DDED3CE00C7CFA6 /* 选择图案.png in Resources */,
+				1832D5B81DDAE9A100A05656 /* C1.png in Resources */,
+				1814D91C1DD988B0000CD0FC /* V上点击.png in Resources */,
+				185D972A1DD557860090E32E /* cell.png in Resources */,
+				185833EC1DDE9F5700C7CFA6 /* S1.png in Resources */,
+				18384F2A1DDDB5C300F4CEF2 /* 取样1次.png in Resources */,
+				1876B42E1DDC34D50002B4A2 /* 色块.png in Resources */,
+				183042D01DE5385C003C34CF /* 大颜色块.png in Resources */,
+				186FB16E1DD4411800473783 /* G3D材质拖放工具.png in Resources */,
+				186FB0F71DD40C0200473783 /* 4@J红眼工具.png in Resources */,
+				18A913A71DE6E7A4004FBF82 /* 自定义.png in Resources */,
+				1876B42C1DDC305C0002B4A2 /* 删除计数组.png in Resources */,
+				18384F281DDDB5B400F4CEF2 /* 取样背景色板.png in Resources */,
+				186FB17C1DD4420900473783 /* O减淡工具.png in Resources */,
+				183042D21DE5394D003C34CF /* 小色块.png in Resources */,
+				185D97431DD5A1A40090E32E /* 按左分布.png in Resources */,
+				1833ABA61DEE754300904397 /* 颜色图片838383.png in Resources */,
+				18AC7AEE1DE69A6A0043ADE3 /* 防止在画板内外自动嵌套.png in Resources */,
+				18AC7B061DE6BBC10043ADE3 /* 用画笔描边路径.png in Resources */,
+				18AC7AF21DE6B4DD0043ADE3 /* 大组.png in Resources */,
+				183BD4011DE28B4A005EA055 /* 渐变.png in Resources */,
+				186FB1361DD4227800473783 /* W魔棒工具.png in Resources */,
+				1832045E1DE3DBB8000D2E42 /* P5.png in Resources */,
+				185833FB1DDEF1D000C7CFA6 /* E3.png in Resources */,
+				185833FA1DDEF1D000C7CFA6 /* E2.png in Resources */,
+				186FB0F91DD40C2400473783 /* 4@B画笔工具.png in Resources */,
+				18316AA11DF8002700B3BCE5 /* 下拉.png in Resources */,
+				186FB18D1DD4432700473783 /* P直排文字蒙板工具.png in Resources */,
+				186FB1131DD40E9500473783 /* 4@前景色背景色.png in Resources */,
+				1832D5CA1DDB0BF300A05656 /* 置为顶层.png in Resources */,
+				183BD4051DE29B88005EA055 /* 3.png in Resources */,
+				186FB0FF1DD40C9B00473783 /* 4@E橡皮擦工具.png in Resources */,
+				1876B4201DDC0FA90002B4A2 /* I5.png in Resources */,
+				186FB0FD1DD40C6D00473783 /* 4@Y历史记录画笔.png in Resources */,
+				18AC7ADE1DE68BA40043ADE3 /* 像素图层过滤器.png in Resources */,
+				1832D5B61DDAE48700A05656 /* C4.png in Resources */,
+				1832046F1DE3F656000D2E42 /* T11.png in Resources */,
+				186FB19E1DD4448F00473783 /* U圆角矩形工具.png in Resources */,
+				186FB11B1DD411F900473783 /* 黑背.jpg in Resources */,
+				18A913AA1DE6EA66004FBF82 /* 关闭.png in Resources */,
+				183BD4131DE2E042005EA055 /* O2.png in Resources */,
+				1832047D1DE41732000D2E42 /* A1.png in Resources */,
+				1814D9241DD9A017000CD0FC /* V22.png in Resources */,
+				1814D9161DD96EBC000CD0FC /* 使用手绘板压力增加钢笔宽度.png in Resources */,
+				18D5405D1DD32BAE00D08AF0 /* msyh.ttf in Resources */,
+				1832D5CE1DDB0C1200A05656 /* 前移一层.png in Resources */,
+				1814D9201DD99B11000CD0FC /* V4.png in Resources */,
+				186FB1011DD40CBB00473783 /* 4@G渐变工具.png in Resources */,
+				1832D5B41DDAE2F300A05656 /* C3.png in Resources */,
+				1876B4241DDC289F0002B4A2 /* 注释.png in Resources */,
+				186FB1321DD421A300473783 /* L套索工具.png in Resources */,
+				1832045A1DE3DBB8000D2E42 /* P1.png in Resources */,
+				185D97311DD59F8E0090E32E /* 左对齐.png in Resources */,
+				183728651DE578F1004F0D31 /* 新建.png in Resources */,
+				183728831DE59655004F0D31 /* 阈值.png in Resources */,
+				186FB19C1DD4448F00473783 /* U矩形工具.png in Resources */,
+				183BD4031DE28BD8005EA055 /* 1.png in Resources */,
+				3CF644811DC99530003177FC /* Assets.xcassets in Resources */,
+				18384F2C1DDDB87C00F4CEF2 /* 每次描边后载入画笔.png in Resources */,
+				186FB10F1DD40DC500473783 /* 4@H-抓手工具.png in Resources */,
+				18AC7B021DE6BA3D0043ADE3 /* 将路径作为选区载入.png in Resources */,
+				183204841DE41BA3000D2E42 /* A44.png in Resources */,
+				183204661DE3EFFE000D2E42 /* T3.png in Resources */,
+				18A913961DE6C883004FBF82 /* 菜单.png in Resources */,
+				186FB13E1DD422C800473783 /* C透视裁剪工具.png in Resources */,
+				1832D5AB1DDAA80900A05656 /* 笔刷控制.png in Resources */,
+				18AC7AE01DE68BD10043ADE3 /* 调整图层过滤器.png in Resources */,
+				18AC7AE41DE68C250043ADE3 /* 智能对像过滤器.png in Resources */,
+				18384F0D1DDD3C2A00F4CEF2 /* J2.png in Resources */,
+				186FB19D1DD4448F00473783 /* U椭圆工具.png in Resources */,
+				186FB1641DD4277200473783 /* Y历史记录艺术画笔.png in Resources */,
+				186FB1311DD421A300473783 /* L多边形套索工具.png in Resources */,
+				1848B8541DE82EAF0052C86D /* J1.png in Resources */,
+				18A9139E1DE6CE5E004FBF82 /* 库2.png in Resources */,
+				186FB1841DD4428800473783 /* P添加锚点工具.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF644881DC99530003177FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF644931DC99530003177FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5405E1DD32BAE00D08AF0 /* msyh.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF6446D1DC99530003177FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDD35C91DCB483A00F9AE2A /* UIScrollView+UITouch.m in Sources */,
+				3CF644B31DC995CD003177FC /* Mode.m in Sources */,
+				3CF644791DC99530003177FC /* AppDelegate.m in Sources */,
+				186FB1B61DD47E7F00473783 /* ToolBarTableViewCell.m in Sources */,
+				3CF644761DC99530003177FC /* main.m in Sources */,
+				186FB1AD1DD44B7E00473783 /* ToolModel.m in Sources */,
+				3C5D061A1DC9C06500AA428B /* TableViewCell.m in Sources */,
+				3CF644B21DC995CD003177FC /* MainViewController.m in Sources */,
+				180025A91DD15EF500F14BBF /* DMDropDownMenu.m in Sources */,
+				3C0C1B941DCB0A2600532376 /* SecTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF644861DC99530003177FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6448F1DC99530003177FC /* Demo2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF644911DC99530003177FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6449A1DC99530003177FC /* Demo2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF6448C1DC99530003177FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF644701DC99530003177FC /* Demo2 */;
+			targetProxy = 3CF6448B1DC99530003177FC /* PBXContainerItemProxy */;
+		};
+		3CF644971DC99530003177FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF644701DC99530003177FC /* Demo2 */;
+			targetProxy = 3CF644961DC99530003177FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF644821DC99530003177FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF644831DC99530003177FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF6449C1DC99530003177FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF6449D1DC99530003177FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF6449F1DC99530003177FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8U4MCL4Z3;
+				INFOPLIST_FILE = Demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qust.Demo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF644A01DC99530003177FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P8U4MCL4Z3;
+				INFOPLIST_FILE = Demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qust.Demo2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF644A21DC99530003177FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P8U4MCL4Z3;
+				INFOPLIST_FILE = Demo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qust.Demo2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo2.app/Demo2";
+			};
+			name = Debug;
+		};
+		3CF644A31DC99530003177FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P8U4MCL4Z3;
+				INFOPLIST_FILE = Demo2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qust.Demo2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo2.app/Demo2";
+			};
+			name = Release;
+		};
+		3CF644A51DC99530003177FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P8U4MCL4Z3;
+				INFOPLIST_FILE = Demo2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qust.Demo2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo2;
+			};
+			name = Debug;
+		};
+		3CF644A61DC99530003177FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P8U4MCL4Z3;
+				INFOPLIST_FILE = Demo2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qust.Demo2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF6446C1DC9952F003177FC /* Build configuration list for PBXProject "Demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF6449C1DC99530003177FC /* Debug */,
+				3CF6449D1DC99530003177FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF6449E1DC99530003177FC /* Build configuration list for PBXNativeTarget "Demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF6449F1DC99530003177FC /* Debug */,
+				3CF644A01DC99530003177FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF644A11DC99530003177FC /* Build configuration list for PBXNativeTarget "Demo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF644A21DC99530003177FC /* Debug */,
+				3CF644A31DC99530003177FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF644A41DC99530003177FC /* Build configuration list for PBXNativeTarget "Demo2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF644A51DC99530003177FC /* Debug */,
+				3CF644A61DC99530003177FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF644691DC9952F003177FC /* Project object */;
+}
